@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="NOAA IOOS Testbed THREDDS Server"
+ xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+
+ <catalogRef xlink:title="Inundation Tropical" xlink:href="auto/inundation_tropical.xml" name=""/>
+ <catalogRef xlink:title="Inundation Extratropical" xlink:href="auto/inundation_extratropical.xml" name=""/>
+ <catalogRef xlink:title="Shelf Hypoxia" xlink:href="auto/shelf_hypoxia.xml" name=""/>
+ <catalogRef xlink:title="Estuarine Hypoxia" xlink:href="auto/estuarine_hypoxia.xml" name=""/>
+
+</catalog>
+
