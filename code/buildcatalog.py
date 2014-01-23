@@ -55,13 +55,16 @@ for row in rows:
       id = row['Unique ID']
       runSummary = row['Summary Description']
       datasetName = row['Dataset Name']
+      group = row['Group']
       organization = row['Organization']
+      model = row['Model']
       cdmdatatype = row['CDM Type']
       dir = row['Data path']
       ncmlName = row['NCML Filename']
       ncmlFile = os.path.join(dir,ncmlName)
       Meta = row['Metadata Link']
-      xml = XMLdataset.XMLdataset(ncmlFile, datasetName, runSummary, dir, id,
+      title = '%s/%s/%s %s' % (upper(Group),Organization,model,datasetName) 
+      xml = XMLdataset.XMLdataset(ncmlFile, title, runSummary, dir, id,
                                   cdmdatatype)
       catalog = catalog + xml
 
