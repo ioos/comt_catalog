@@ -20,11 +20,11 @@ import subprocess
 #
 # 2) Read Generic Header and Footer File
 
-f = open('/home/testbed/python/googledoc2catalog/header.xml','r')
+f = open('header.xml','r')
 header = f.read()
 f.close() 
     
-f = open('/home/testbed/python/googledoc2catalog/footer.xml','r')
+f = open('footer.xml','r')
 footer = f.read()
 f.close()      
     
@@ -54,7 +54,7 @@ for row in rows:
     if usethis == 'y':
       id = row['Unique ID']
       runSummary = row['Summary Description']
-      datasetName = row['Dataset Name']
+      datasetName = row['Dataset Name 2']
       group = row['Group']
       organization = row['Organization']
       model = row['Model']
@@ -63,7 +63,7 @@ for row in rows:
       ncmlName = row['NCML Filename']
       ncmlFile = os.path.join(dir,ncmlName)
       Meta = row['Metadata Link']
-      title = '%s/%s/%s %s' % (upper(Group),Organization,model,datasetName) 
+      title = '%s/%s/%s %s' % (group.upper(),organization,model,datasetName) 
       xml = XMLdataset.XMLdataset(ncmlFile, title, runSummary, dir, id,
                                   cdmdatatype)
       catalog = catalog + xml
@@ -76,7 +76,7 @@ for row in rows:
 
 catalog = (catalog + footer).encode('utf-8')
 
-f = open('/home/testbed/testbed2_catalog/auto.xml','w')
+f = open('../auto.xml','w')
 f.write(catalog)
 f.close()
 
@@ -84,15 +84,15 @@ f.close()
 #
 # 6) Push to Github
 
-os.chdir('/home/testbed/testbed2_catalog')
+os.chdir('/var/www/thredds_instance/content/thredds/testbed2_catalog')
 def git(*args):
     return subprocess.check_call(['git'] + list(args))
 
 git ("commit", "-am", "updated catalogs")
 git ("push")
 
-os.chdir('/var/www/thredds_instance/content/thredds/testbed2_catalog')
-git ("pull")
+#os.chdir('/var/www/thredds_instance/content/thredds/testbed2_catalog')
+#git ("pull")
 
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
  xmlns:xlink="http://www.w3.org/1999/xlink"
-  name="THREDDS Catalog2" version="1.0.1">
+  name="US IOOS COMT 1 Archive Summary Catalog" version="1.0.1">
 
  <service name="all" base="" serviceType="compound">
   <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
