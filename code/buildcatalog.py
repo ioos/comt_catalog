@@ -75,7 +75,7 @@ for row in rows:
 
 catalog = (catalog + footer).encode('utf-8')
 
-f = open('../catalogs/comt_01_archive_summary.xml','w')
+f = open('../catalogs/comt_1_archive_summary.xml','w')
 f.write(catalog)
 f.close()
 
