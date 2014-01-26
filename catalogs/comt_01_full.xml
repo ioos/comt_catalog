@@ -15,7 +15,7 @@
 <service name="sos" serviceType="SOS" base="/thredds/sos/" />
  </service>
 
- <datasetScan name="Full Catalog" ID="comt_1_archive_full" path="comt_1_archive_full" location="/data/FINAL/comt_1_archive/">
+ <datasetScan name="Full Catalog" ID="comt_1_archive_full" path="comt_1_archive_full" location="/data/comt_01_archive/">
  <metadata inherited="true">
  <serviceName>all</serviceName>
  </metadata>
