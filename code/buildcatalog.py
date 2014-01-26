@@ -63,8 +63,7 @@ for row in rows:
       ncmlName = row['NCML Filename']
       ncmlFile = os.path.join(dir,ncmlName)
       Meta = row['Metadata Link']
-      title = '%s/%s/%s %s' % (group.upper(),organization,model,datasetName) 
-      xml = XMLdataset.XMLdataset(ncmlFile, title, runSummary, dir, id,
+      xml = XMLdataset.XMLdataset(ncmlFile, datasetName, runSummary, dir, id,
                                   cdmdatatype)
       catalog = catalog + xml
 
