@@ -75,7 +75,7 @@ for row in rows:
 
 catalog = (catalog + footer).encode('utf-8')
 
-f = open('../auto.xml','w')
+f = open('../catalogs/comt_01_archive.xml','w')
 f.write(catalog)
 f.close()
 
@@ -83,7 +83,7 @@ f.close()
 #
 # 6) Push to Github
 
-os.chdir('/var/www/thredds_instance/content/thredds/comt_catalog')
+os.chdir('..')
 def git(*args):
     return subprocess.check_call(['git'] + list(args))
 
