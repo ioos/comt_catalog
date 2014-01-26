@@ -3,6 +3,6 @@
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
-  <catalogRef xlink:title="COMT 01 Archive Catalog" xlink:href="comt_1_archive.xml" name="COMT 1 Archive"/>
+  <catalogRef xlink:title="COMT 1 Archive Catalog" xlink:href="comt_1_archive.xml" name="COMT 1 Archive"/>
 
 </catalog>
