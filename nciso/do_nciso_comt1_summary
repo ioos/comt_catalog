@@ -1,0 +1,11 @@
+#!/bin/bash
+for catalog in comt_1_archive_summary
+do
+  cat=http://comt.sura.org/thredds/$catalog.xml
+  print cat
+  java -Xms1024m -Xmx1024m -jar $HOME/java/ncISO-2.3.jar \
+    -ts ${cat} -num 100000 -depth 20 -iso true \
+    -waf $HOME/waf
+done
+
+
