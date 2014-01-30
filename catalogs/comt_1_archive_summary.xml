@@ -84,14 +84,6 @@
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
      </ns0:variable>
 
-     <ns0:variable name="lon">
-      <ns0:remove name="valid_min" type="attribute" />
-      <ns0:remove name="valid_max" type="attribute" />
-     </ns0:variable>
-     <ns0:variable name="lat">
-      <ns0:remove name="valid_min" type="attribute" />
-      <ns0:remove name="valid_max" type="attribute" />
-     </ns0:variable>
  <ns0:variable name="time">
    <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
  </ns0:variable> 
@@ -1162,6 +1154,25 @@
   <ns0:remove name="positive" type="attribute" />
   <ns0:remove name="grid" type="attribute" />
  </ns0:variable>
+
+
+
+     <ns0:variable name="lon">
+      <ns0:remove name="valid_min" type="attribute" />
+      <ns0:remove name="valid_max" type="attribute" />
+     </ns0:variable>
+     <ns0:variable name="lat">
+      <ns0:remove name="valid_min" type="attribute" />
+      <ns0:remove name="valid_max" type="attribute" />
+     </ns0:variable>
+     <ns0:variable name="lonc">
+      <ns0:remove name="valid_min" type="attribute" />
+      <ns0:remove name="valid_max" type="attribute" />
+     </ns0:variable>
+     <ns0:variable name="latc">
+      <ns0:remove name="valid_min" type="attribute" />
+      <ns0:remove name="valid_max" type="attribute" />
+     </ns0:variable>
  <ns0:variable name="nv">
   <ns0:attribute name="cf_role" value="face_node_connectivity" />
   <ns0:attribute name="start_index" type="int" value="1" />
