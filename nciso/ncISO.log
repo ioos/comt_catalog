@@ -901,3 +901,1365 @@ Caused by: opendap.dap.DAP2Exception: Method failed:HTTP/1.1 500 Internal Server
 INFO  [main] util.ThreddsExtentUtil.[] Jan/26 21:20:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
 INFO  [main] util.ThreddsExtentUtil.[] Jan/26 21:20:08 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
 INFO  [main] util.ThreddsExtentUtil.[] Jan/26 21:20:08 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] controller.ServiceController.[] Jan/27 07:59:20 - Running createWafTds in service controller: http://comt.sura.org/thredds/comt_1_archive_summary.xml
+INFO  [main] controller.ServiceController.[] Jan/27 07:59:20 - Running createWaf in service controller...
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:22 - numTimeElems=511
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:22 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:22 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:22 - Free Memory: 940
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:22 - udunits string = 0.0 minutes since 2008-09-10 09:00:20
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:23 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:23 - numTimeElems=501
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:23 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:23 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:23 - Free Memory: 925
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:23 - udunits string = 0.0 minutes since 2005-09-22 23:00:20
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - Free Memory: 896
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:24 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - Free Memory: 860
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:25 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - Free Memory: 825
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - Free Memory: 789
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:26 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - Free Memory: 753
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - Free Memory: 953
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:27 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - Free Memory: 917
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - Free Memory: 884
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - Free Memory: 848
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - Free Memory: 812
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:29 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - Free Memory: 775
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:30 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - numTimeElems=576
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - Free Memory: 738
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - udunits string = 3112200.0 seconds since 2008-07-31 12:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - numTimeElems=336
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - Free Memory: 962
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - udunits string = 3544200.0 seconds since 2008-07-31 12:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:31 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - Free Memory: 925
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - numTimeElems=96
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - Free Memory: 891
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - udunits string = 3600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:32 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - numTimeElems=96
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - Free Memory: 851
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - udunits string = 3600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - Free Memory: 814
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:33 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - Free Memory: 780
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - Free Memory: 746
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:34 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - Free Memory: 960
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - Free Memory: 927
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:35 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - Free Memory: 892
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - Free Memory: 856
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:36 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - Free Memory: 821
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - Free Memory: 783
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - Free Memory: 746
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:37 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - numTimeElems=3600
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - Free Memory: 964
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - udunits string = 2593800.0 seconds since 2008-05-19 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - numTimeElems=3600
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - Free Memory: 931
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - udunits string = 2593800.0 seconds since 2008-05-19 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:38 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - numTimeElems=3600
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - Free Memory: 899
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - udunits string = 2593800.0 seconds since 2008-05-19 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - Free Memory: 886
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:39 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - Free Memory: 882
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - Free Memory: 879
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - Free Memory: 875
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:40 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Free Memory: 871
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Free Memory: 868
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Free Memory: 864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - Free Memory: 860
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:41 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - Free Memory: 856
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - Free Memory: 852
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - Free Memory: 849
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:42 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - Free Memory: 845
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - Free Memory: 842
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - Free Memory: 837
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:43 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - Free Memory: 833
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - Free Memory: 827
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:44 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - numTimeElems=1081
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - Free Memory: 797
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - numTimeElems=1081
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - Free Memory: 765
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:45 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:46 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:46 - numTimeElems=361
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:46 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:46 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:46 - Free Memory: 731
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:46 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - numTimeElems=361
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - Free Memory: 954
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:47 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - numTimeElems=865
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - Free Memory: 922
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - numTimeElems=865
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - Free Memory: 890
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:48 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - numTimeElems=289
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - Free Memory: 858
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:49 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:50 - numTimeElems=289
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:50 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:50 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:50 - Free Memory: 826
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:50 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:50 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:52 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:53 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:54 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:55 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:56 - numTimeElems=3601
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:56 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:56 - Free Memory: 956
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:56 - udunits string = 54635.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:57 - numTimeElems=3601
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:57 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:57 - Free Memory: 929
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:57 - udunits string = 54635.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - numTimeElems=3601
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - Free Memory: 902
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - udunits string = 54635.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - numTimeElems=2835
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - Free Memory: 889
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - udunits string = 54648.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:58 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - numTimeElems=2953
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - Free Memory: 870
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - udunits string = 54648.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - numTimeElems=384
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - Free Memory: 853
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 07:59:59 - udunits string = 1800.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:00 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - numTimeElems=120
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - Free Memory: 564
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - udunits string = 3600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - Free Memory: 552
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - udunits string = 600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+ERROR [main] util.ThreddsExtentUtil.[] Jan/27 08:00:06 - Error in doGetExtent
+java.io.IOException: opendap.dap.DAP2Exception: Method failed:HTTP/1.1 403 Forbidden on URL= http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves.dods?wwm_15[0:1:1007][0:1:592760]
+	at ucar.nc2.dods.DODSNetcdfFile.readData(DODSNetcdfFile.java:1662)
+	at ucar.nc2.Variable.reallyRead(Variable.java:841)
+	at ucar.nc2.Variable._read(Variable.java:813)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at ucar.nc2.dataset.VariableDS.reallyRead(VariableDS.java:519)
+	at ucar.nc2.dataset.VariableDS._read(VariableDS.java:503)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:142)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:356)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:62)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:340)
+	at gov.noaa.eds.service.WafService.generateNcml(WafService.java:77)
+	at gov.noaa.eds.controller.ServiceController.createWaf(ServiceController.java:47)
+	at gov.noaa.eds.controller.ServiceController.createWafTds(ServiceController.java:76)
+	at gov.noaa.eds.controller.ServiceController.main(ServiceController.java:187)
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - numTimeElems=384
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - Free Memory: 536
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - udunits string = 1800.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - numTimeElems=1296
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - Free Memory: 525
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - udunits string = 600.0 seconds since 2005-09-18 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - numTimeElems=168
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - Free Memory: 125
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - udunits string = 3600.0 seconds since 2005-09-18 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - numTimeElems=1008
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - Free Memory: 113
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:16 - udunits string = 600.0 seconds since 2005-09-18 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+ERROR [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - Error in doGetExtent
+java.io.IOException: opendap.dap.DAP2Exception: Method failed:HTTP/1.1 403 Forbidden on URL= http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_3D_final_run_with_waves.dods?wwm_15[0:1:1295][0:1:592760]
+	at ucar.nc2.dods.DODSNetcdfFile.readData(DODSNetcdfFile.java:1662)
+	at ucar.nc2.Variable.reallyRead(Variable.java:841)
+	at ucar.nc2.Variable._read(Variable.java:813)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at ucar.nc2.dataset.VariableDS.reallyRead(VariableDS.java:519)
+	at ucar.nc2.dataset.VariableDS._read(VariableDS.java:503)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:142)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:356)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:62)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:340)
+	at gov.noaa.eds.service.WafService.generateNcml(WafService.java:77)
+	at gov.noaa.eds.controller.ServiceController.createWaf(ServiceController.java:47)
+	at gov.noaa.eds.controller.ServiceController.createWafTds(ServiceController.java:76)
+	at gov.noaa.eds.controller.ServiceController.main(ServiceController.java:187)
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - numTimeElems=1296
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - Free Memory: 97
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:17 - udunits string = 600.0 seconds since 2005-09-18 00:00:00
+ERROR [main] service.WafService.[] Jan/27 08:00:17 - Caught ioe: 
+java.io.IOException: java.io.IOException: opendap.dap.DAP2Exception: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at ucar.nc2.dataset.NetcdfDataset.openDodsByReflection(NetcdfDataset.java:1035)
+	at ucar.nc2.dataset.NetcdfDataset.acquireDODS(NetcdfDataset.java:980)
+	at ucar.nc2.dataset.NetcdfDataset.openOrAcquireFile(NetcdfDataset.java:664)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:421)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:404)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:389)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:376)
+	at thredds.server.metadata.util.ThreddsTranslatorUtil.doGetNcml(ThreddsTranslatorUtil.java:109)
+	at thredds.server.metadata.util.ThreddsTranslatorUtil.getNcml(ThreddsTranslatorUtil.java:103)
+	at gov.noaa.eds.service.WafService.generateNcml(WafService.java:73)
+	at gov.noaa.eds.controller.ServiceController.createWaf(ServiceController.java:47)
+	at gov.noaa.eds.controller.ServiceController.createWafTds(ServiceController.java:76)
+	at gov.noaa.eds.controller.ServiceController.main(ServiceController.java:187)
+Caused by: java.io.IOException: opendap.dap.DAP2Exception: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at ucar.nc2.dods.DODSNetcdfFile.<init>(DODSNetcdfFile.java:283)
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at ucar.nc2.dataset.NetcdfDataset.openDodsByReflection(NetcdfDataset.java:1031)
+	... 12 more
+Caused by: opendap.dap.DAP2Exception: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at opendap.dap.DConnect2.openConnection(DConnect2.java:308)
+	at opendap.dap.DConnect2.getDDS(DConnect2.java:563)
+	at opendap.dap.DConnect2.getDDS(DConnect2.java:537)
+	at ucar.nc2.dods.DODSNetcdfFile.<init>(DODSNetcdfFile.java:240)
+	... 16 more
+Caused by: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at opendap.dap.DConnect2.openConnection(DConnect2.java:263)
+	... 19 more
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - numTimeElems=744
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - Free Memory: 90
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - udunits string = 53491.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - numTimeElems=745
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - Free Memory: 82
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - udunits string = 53491.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - numTimeElems=721
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - Free Memory: 75
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:18 - udunits string = 54191.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - Free Memory: 69
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - udunits string = 54191.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - numTimeElems=721
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - Free Memory: 61
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - udunits string = 54191.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - numTimeElems=528
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - Free Memory: 56
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - udunits string = 2678400.0 seconds since 2005-05-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:19 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - numTimeElems=528
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - Free Memory: 52
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - udunits string = 1729800.0 seconds since 2005-05-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - numTimeElems=528
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - Free Memory: 47
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - udunits string = 1729800.0 seconds since 2005-05-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - numTimeElems=864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - Total Memory: 1009
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - Free Memory: 42
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - udunits string = 2592000.0 seconds since 2007-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:20 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - numTimeElems=864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - Free Memory: 337
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - udunits string = 1038600.0 seconds since 2007-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - numTimeElems=864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - Free Memory: 333
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - udunits string = 1038600.0 seconds since 2007-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - numTimeElems=744
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - Free Memory: 330
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - udunits string = 3600.0 seconds since 2010-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:21 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:22 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:22 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:22 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:22 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:22 - Free Memory: 310
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:22 - udunits string = 3600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:23 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - Free Memory: 291
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - udunits string = 3600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - Free Memory: 287
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - udunits string = 3600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:24 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:25 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:25 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:25 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:25 - Free Memory: 270
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:25 - udunits string = 777600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:26 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:26 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:26 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:26 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:26 - Free Memory: 251
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:26 - udunits string = 777600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - numTimeElems=504
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - Free Memory: 247
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - udunits string = 781200.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:28 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:28 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:28 - Free Memory: 230
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:28 - udunits string = 3600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - Free Memory: 211
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - udunits string = 3600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - Free Memory: 207
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:29 - udunits string = 3600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:30 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:30 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:30 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:30 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:30 - Free Memory: 190
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:30 - udunits string = 777600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:31 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:31 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:31 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:31 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:31 - Free Memory: 172
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:31 - udunits string = 777600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - numTimeElems=480
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - Free Memory: 168
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - udunits string = 781200.0 seconds since 2007-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - numTimeElems=1464
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - Free Memory: 166
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - udunits string = 3600.0 seconds since 2010-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - numTimeElems=1224
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - Total Memory: 997
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - Free Memory: 164
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:32 - udunits string = 781200.0 seconds since 2010-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:33 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:33 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:34 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:34 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:34 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:00:35 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] controller.ServiceController.[] Jan/27 08:01:13 - Running createWafTds in service controller: http://comt.sura.org/thredds/comt_1_archive_summary.xml
+INFO  [main] controller.ServiceController.[] Jan/27 08:01:14 - Running createWaf in service controller...
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:14 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:14 - numTimeElems=511
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:14 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:14 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:14 - Free Memory: 940
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:14 - udunits string = 0.0 minutes since 2008-09-10 09:00:20
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - numTimeElems=501
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - Free Memory: 925
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - udunits string = 0.0 minutes since 2005-09-22 23:00:20
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:15 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - Free Memory: 901
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:16 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - Free Memory: 865
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - Free Memory: 830
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:17 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - Free Memory: 794
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - Free Memory: 758
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - Free Memory: 953
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:18 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - Free Memory: 917
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - Free Memory: 884
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:19 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - Free Memory: 848
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - Free Memory: 812
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - Free Memory: 775
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - udunits string = 3111000.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:20 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - numTimeElems=576
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - Free Memory: 736
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - udunits string = 3112200.0 seconds since 2008-07-31 12:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - numTimeElems=336
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - Free Memory: 962
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - udunits string = 3544200.0 seconds since 2008-07-31 12:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:21 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - Free Memory: 925
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - numTimeElems=96
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - Free Memory: 891
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - udunits string = 3600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - numTimeElems=96
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - Free Memory: 852
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - udunits string = 3600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:22 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - Free Memory: 815
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - Free Memory: 781
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - Free Memory: 744
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:23 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - Free Memory: 963
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - Free Memory: 930
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - Free Memory: 895
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:24 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - Free Memory: 860
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - Free Memory: 820
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - numTimeElems=1728
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - Free Memory: 784
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - udunits string = 3111000.0 seconds since 2005-08-13 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:25 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - numTimeElems=1
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - Free Memory: 747
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - udunits string = 3110400.0 seconds since 2008-07-31 12:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - numTimeElems=3600
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - Free Memory: 967
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - udunits string = 2593800.0 seconds since 2008-05-19 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - numTimeElems=3600
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - Free Memory: 935
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - udunits string = 2593800.0 seconds since 2008-05-19 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:26 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - numTimeElems=3600
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Free Memory: 902
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - udunits string = 2593800.0 seconds since 2008-05-19 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Free Memory: 889
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Free Memory: 885
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Free Memory: 882
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - Free Memory: 878
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:27 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 875
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 872
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 866
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 863
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2008-09-10 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 860
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 854
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - Free Memory: 851
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:28 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Free Memory: 848
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Free Memory: 844
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Free Memory: 841
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Free Memory: 836
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - numTimeElems=589
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - Free Memory: 832
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - udunits string = 0.0 seconds since 2005-09-21 09:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:29 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - numTimeElems=1081
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - Free Memory: 800
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - numTimeElems=1081
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - Free Memory: 768
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:30 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - numTimeElems=361
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - Free Memory: 736
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - numTimeElems=361
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - Free Memory: 954
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - udunits string = 54719.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:31 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - numTimeElems=865
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - Free Memory: 922
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - numTimeElems=865
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - Free Memory: 890
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:32 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - numTimeElems=289
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - Free Memory: 858
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - numTimeElems=289
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - Total Memory: 982
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - Free Memory: 827
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - udunits string = 53634.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:33 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:35 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:36 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:37 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - numTimeElems=3601
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - Free Memory: 955
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - udunits string = 54635.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:38 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - numTimeElems=3601
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - Free Memory: 928
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - udunits string = 54635.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - numTimeElems=3601
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - Free Memory: 901
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - udunits string = 54635.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:39 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - numTimeElems=2835
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - Free Memory: 890
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - udunits string = 54648.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - numTimeElems=2953
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - Free Memory: 870
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - udunits string = 54648.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - numTimeElems=384
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - Free Memory: 851
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - udunits string = 1800.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:40 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - numTimeElems=120
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Free Memory: 563
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - udunits string = 3600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Free Memory: 550
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - udunits string = 600.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+ERROR [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Error in doGetExtent
+java.io.IOException: opendap.dap.DAP2Exception: Method failed:HTTP/1.1 403 Forbidden on URL= http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves.dods?wwm_15[0:1:1007][0:1:592760]
+	at ucar.nc2.dods.DODSNetcdfFile.readData(DODSNetcdfFile.java:1662)
+	at ucar.nc2.Variable.reallyRead(Variable.java:841)
+	at ucar.nc2.Variable._read(Variable.java:813)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at ucar.nc2.dataset.VariableDS.reallyRead(VariableDS.java:519)
+	at ucar.nc2.dataset.VariableDS._read(VariableDS.java:503)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:142)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:356)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:62)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:340)
+	at gov.noaa.eds.service.WafService.generateNcml(WafService.java:77)
+	at gov.noaa.eds.controller.ServiceController.createWaf(ServiceController.java:47)
+	at gov.noaa.eds.controller.ServiceController.createWafTds(ServiceController.java:76)
+	at gov.noaa.eds.controller.ServiceController.main(ServiceController.java:187)
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - numTimeElems=384
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - Free Memory: 536
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - udunits string = 1800.0 seconds since 2008-09-10 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:46 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:47 - numTimeElems=1296
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:47 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:47 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:47 - Free Memory: 524
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:47 - udunits string = 600.0 seconds since 2005-09-18 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:47 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - numTimeElems=168
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Free Memory: 125
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - udunits string = 3600.0 seconds since 2005-09-18 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - numTimeElems=1008
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Free Memory: 112
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - udunits string = 600.0 seconds since 2005-09-18 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+ERROR [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Error in doGetExtent
+java.io.IOException: opendap.dap.DAP2Exception: Method failed:HTTP/1.1 403 Forbidden on URL= http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_3D_final_run_with_waves.dods?wwm_15[0:1:1295][0:1:592760]
+	at ucar.nc2.dods.DODSNetcdfFile.readData(DODSNetcdfFile.java:1662)
+	at ucar.nc2.Variable.reallyRead(Variable.java:841)
+	at ucar.nc2.Variable._read(Variable.java:813)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at ucar.nc2.dataset.VariableDS.reallyRead(VariableDS.java:519)
+	at ucar.nc2.dataset.VariableDS._read(VariableDS.java:503)
+	at ucar.nc2.Variable.read(Variable.java:691)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:142)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:356)
+	at thredds.server.metadata.util.ThreddsExtentUtil.doGetExtent(ThreddsExtentUtil.java:62)
+	at thredds.server.metadata.util.ThreddsExtentUtil.getExtent(ThreddsExtentUtil.java:340)
+	at gov.noaa.eds.service.WafService.generateNcml(WafService.java:77)
+	at gov.noaa.eds.controller.ServiceController.createWaf(ServiceController.java:47)
+	at gov.noaa.eds.controller.ServiceController.createWafTds(ServiceController.java:76)
+	at gov.noaa.eds.controller.ServiceController.main(ServiceController.java:187)
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - numTimeElems=1296
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Free Memory: 96
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - udunits string = 600.0 seconds since 2005-09-18 00:00:00
+ERROR [main] service.WafService.[] Jan/27 08:01:56 - Caught ioe: 
+java.io.IOException: java.io.IOException: opendap.dap.DAP2Exception: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at ucar.nc2.dataset.NetcdfDataset.openDodsByReflection(NetcdfDataset.java:1035)
+	at ucar.nc2.dataset.NetcdfDataset.acquireDODS(NetcdfDataset.java:980)
+	at ucar.nc2.dataset.NetcdfDataset.openOrAcquireFile(NetcdfDataset.java:664)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:421)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:404)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:389)
+	at ucar.nc2.dataset.NetcdfDataset.openDataset(NetcdfDataset.java:376)
+	at thredds.server.metadata.util.ThreddsTranslatorUtil.doGetNcml(ThreddsTranslatorUtil.java:109)
+	at thredds.server.metadata.util.ThreddsTranslatorUtil.getNcml(ThreddsTranslatorUtil.java:103)
+	at gov.noaa.eds.service.WafService.generateNcml(WafService.java:73)
+	at gov.noaa.eds.controller.ServiceController.createWaf(ServiceController.java:47)
+	at gov.noaa.eds.controller.ServiceController.createWafTds(ServiceController.java:76)
+	at gov.noaa.eds.controller.ServiceController.main(ServiceController.java:187)
+Caused by: java.io.IOException: opendap.dap.DAP2Exception: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at ucar.nc2.dods.DODSNetcdfFile.<init>(DODSNetcdfFile.java:283)
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at ucar.nc2.dataset.NetcdfDataset.openDodsByReflection(NetcdfDataset.java:1031)
+	... 12 more
+Caused by: opendap.dap.DAP2Exception: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at opendap.dap.DConnect2.openConnection(DConnect2.java:308)
+	at opendap.dap.DConnect2.getDDS(DConnect2.java:563)
+	at opendap.dap.DConnect2.getDDS(DConnect2.java:537)
+	at ucar.nc2.dods.DODSNetcdfFile.<init>(DODSNetcdfFile.java:240)
+	... 16 more
+Caused by: opendap.dap.DAP2Exception: HTTP/1.1 404 Not Found: http://comt.sura.org/thredds/dodsC/data/comt_1_archive/inundation_extratropical/UMASS_FVCOM/2005_3D_final_run_without_waves.dds
+	at opendap.dap.DConnect2.openConnection(DConnect2.java:263)
+	... 19 more
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - numTimeElems=744
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Free Memory: 90
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - udunits string = 53491.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - numTimeElems=745
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Free Memory: 81
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - udunits string = 53491.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - numTimeElems=721
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - Free Memory: 75
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:56 - udunits string = 54191.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 68
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 54191.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=721
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 61
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 54191.0 days since 1858-11-17 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=528
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 56
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 2678400.0 seconds since 2005-05-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=528
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 51
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 1729800.0 seconds since 2005-05-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=528
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 1005
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 46
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 1729800.0 seconds since 2005-05-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 332
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 2592000.0 seconds since 2007-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 328
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 1038600.0 seconds since 2007-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=864
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 322
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 1038600.0 seconds since 2007-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - numTimeElems=744
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - Free Memory: 319
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - udunits string = 3600.0 seconds since 2010-04-01 00:00:00 +00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:57 - axisName=depth
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:58 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:58 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:58 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:58 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:58 - Free Memory: 299
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:58 - udunits string = 3600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - Free Memory: 280
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - udunits string = 3600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - Free Memory: 276
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:01:59 - udunits string = 3600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:00 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:00 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:00 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:00 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:00 - Free Memory: 259
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:00 - udunits string = 777600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - numTimeElems=720
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - Free Memory: 239
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - udunits string = 777600.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - numTimeElems=504
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - Free Memory: 237
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:01 - udunits string = 781200.0 seconds since 2005-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:02 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:02 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:02 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:02 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:02 - Free Memory: 219
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:02 - udunits string = 3600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - Free Memory: 200
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - udunits string = 3600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:03 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - Free Memory: 196
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - udunits string = 3600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - Free Memory: 179
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:04 - udunits string = 777600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - numTimeElems=696
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - Free Memory: 160
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - udunits string = 777600.0 seconds since 2007-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - numTimeElems=480
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - Free Memory: 158
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:05 - udunits string = 781200.0 seconds since 2007-05-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - numTimeElems=1464
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - Free Memory: 154
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - udunits string = 3600.0 seconds since 2010-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - numTimeElems=1224
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - axisName=time
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - Total Memory: 990
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - Free Memory: 152
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - udunits string = 781200.0 seconds since 2010-04-01 00:00:00
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:06 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
+INFO  [main] util.ThreddsExtentUtil.[] Jan/27 08:02:07 - FeatureType is not null && not a grid getting extent by reading arrays: ANY
