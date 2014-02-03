@@ -9,17 +9,17 @@ https://github.com/ioos/testbed2_catalog/blob/master/code/buildcatalog.py
 which reads a [google drive spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AmAEVaW9GoHedFZHU3Z4c1pyMkozWmJxSUlGSDk3eVE&usp=drive_web#gid=0) and is run thusly:
 ```
 ssh testbed@comt.sura.org
-cd /var/www/thredds_instance/content/thredds/testbed2_catalog/code
+cd /home/testbed/comt_catalog/code
 python buildcatalog.py
 sudo /etc/init.d/tomcat_thredds restart
 ```
 which writes the file
 ```
-/home/testbed/testbed2_catalog/auto.xml
+/home/testbed/comt_catalog/catalogs/comt_1_archive_summary.xml
 ```
-which is then pushed to github, and then pulled back into
+which is then pushed to github, and softlinked to 
 ```
-/var/www/thredds_instance/content/thredds/testbed2_catalog/auto.xml
+/var/www/thredds_instance/content/thredds/comt_1_archive_summary.xml
 ```
 where the THREDDS Data Server reads it.
 
