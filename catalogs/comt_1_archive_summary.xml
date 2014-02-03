@@ -5479,21 +5479,50 @@
     <ns0:aggregation dimName="ocean_time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_ias_obc_with_oxygen_inst_rem_30layers/Output/" regExp=".*his_mch.*\.nc$" subdirs="false" />        
     </ns0:aggregation>
-<ns0:attribute name="id" value="shelf_hypoxia.DAL_ROMS.2004-2009_ias_obc_with_oxygen_inst_rem_30layers" /><ns0:attribute name="cdm_data_type" value="any" /><ns0:attribute name="title" value="Shelf Hypoxia : DAL : ROMS : 2004-2009 ias obc with oxygen inst rem 30layers" /><ns0:attribute name="summary" value="A five year (2004-2009) simulation of hypoxia in the Northern Gulf of &#10;Mexico using ROMS with the 7-component biological model by Fennel (2006,&#10; 2011,2013), IASNFS at the open boundaries, instantaneous remineralization, and 30 vertical &#10;layers." /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : NOAA : NGOM : 2005-2011 NCOM" ID="shelf_hypoxia.NOAA_NGOM.2005-2011_NCOM" urlPath="data/comt_1_archive/shelf_hypoxia/NOAA_NGOM/2005-2011_NGOM"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-    <ns0:variable name="salt">
-        <ns0:attribute name="units" value="0.001" />
-        <ns0:attribute name="missing_value" type="double" value="0.0" />
-    </ns0:variable>
-    <ns0:variable name="temp">
-        <ns0:attribute name="missing_value" type="double" value="0.0" />
-    </ns0:variable>
-    <ns0:variable name="zeta">
-        <ns0:attribute name="missing_value" type="double" value="0.0" />
-    </ns0:variable>
-    <ns0:aggregation dimName="time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/shelf_hypoxia/NOAA_NGOM/2005-2011_NGOM/Output/" regExp=".*GOMUD.*3D\.nc$" subdirs="false" />        
-    </ns0:aggregation>
-<ns0:attribute name="id" value="shelf_hypoxia.NOAA_NGOM.2005-2011_NCOM" /><ns0:attribute name="cdm_data_type" value="any" /><ns0:attribute name="title" value="Shelf Hypoxia : NOAA : NGOM : 2005-2011 NCOM" /><ns0:attribute name="summary" value="A seven year (2005-2011) simulation of hydrodynamics in the Northern Gulf of Mexico using NOAA/POM with 37 layers. " /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : TAMU : ROMS : 2004-2009 hycom obc 24h" ID="shelf_hypoxia.TAMU_ROMS.2004-2009_hycom_obc_24h" urlPath="data/comt_1_archive/shelf_hypoxia/TAMU_ROMS/2004-2009_hycom_obc_24h"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="shelf_hypoxia.DAL_ROMS.2004-2009_ias_obc_with_oxygen_inst_rem_30layers" /><ns0:attribute name="cdm_data_type" value="any" /><ns0:attribute name="title" value="Shelf Hypoxia : DAL : ROMS : 2004-2009 ias obc with oxygen inst rem 30layers" /><ns0:attribute name="summary" value="A five year (2004-2009) simulation of hypoxia in the Northern Gulf of &#10;Mexico using ROMS with the 7-component biological model by Fennel (2006,&#10; 2011,2013), IASNFS at the open boundaries, instantaneous remineralization, and 30 vertical &#10;layers." /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : NOAA : NGOM : 2005-2011 NGOM" ID="shelf_hypoxia.NOAA_NGOM.2005-2011_NGOM" urlPath="data/comt_1_archive/shelf_hypoxia/NOAA_NGOM/2005-2011_NGOM"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ 
+ <ns0:attribute name="Conventions" value="CF-1.6" />
+ 
+ 
+ <ns0:variable name="zeta">
+  <ns0:attribute name="coordinates" value="lon lat time" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="depth">
+  <ns0:attribute name="coordinates" value="lon lat" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ 
+ <ns0:variable name="sigma">
+  <ns0:attribute name="positive" value="up" />
+  <ns0:values> 0 -0.0007 -0.0014 -0.0027 -0.0054 -0.0109 -0.0217 -0.0435 -0.0870 -0.1304 -0.1739 -0.2174
+   -0.2609 -0.3043 -0.3478 -0.3913 -0.4348 -0.4783 -0.5217 -0.5652 -0.6087 -0.6522 -0.6957 -0.7391
+   -0.7826 -0.8261 -0.8696 -0.9130 -0.9565 -0.9783 -0.9891 -0.9946 -0.9973 -0.9986 -0.9993 -0.9997
+   -1.0000 </ns0:values>
+ </ns0:variable>
+ <ns0:variable name="mask">
+  <ns0:attribute name="coordinates" value="lon lat" />
+ </ns0:variable>
+ <ns0:variable name="temp">
+  <ns0:attribute name="coordinates" value="lon lat sigma time" />
+  <ns0:attribute name="missing_value" type="double" value="0.0" />
+ </ns0:variable>
+ <ns0:variable name="salt">
+  <ns0:attribute name="coordinates" value="lon lat sigma time" />
+  <ns0:attribute name="missing_value" type="double" value="0.0" />
+ </ns0:variable>
+ <ns0:variable name="u">
+  <ns0:attribute name="coordinates" value="lon lat sigma time" />
+  <ns0:attribute name="missing_value" type="double" value="0.0" />
+ </ns0:variable>
+ <ns0:variable name="v">
+  <ns0:attribute name="coordinates" value="lon lat sigma time" />
+  <ns0:attribute name="missing_value" type="double" value="0.0" />
+ </ns0:variable>
+ <ns0:aggregation dimName="time" type="joinExisting">
+  <ns0:scan location="/data/comt_1_archive/shelf_hypoxia/NOAA_NGOM/2005-2011_NGOM/Output/" regExp=".*GOMUD.*3D\.nc$" subdirs="false" />
+ </ns0:aggregation>
+<ns0:attribute name="id" value="shelf_hypoxia.NOAA_NGOM.2005-2011_NGOM" /><ns0:attribute name="cdm_data_type" value="any" /><ns0:attribute name="title" value="Shelf Hypoxia : NOAA : NGOM : 2005-2011 NGOM" /><ns0:attribute name="summary" value="A seven year (2005-2011) simulation of hydrodynamics in the Northern Gulf of Mexico using NOAA/POM with 37 layers. " /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : TAMU : ROMS : 2004-2009 hycom obc 24h" ID="shelf_hypoxia.TAMU_ROMS.2004-2009_hycom_obc_24h" urlPath="data/comt_1_archive/shelf_hypoxia/TAMU_ROMS/2004-2009_hycom_obc_24h"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
     <ns0:variable name="salt">
         <ns0:attribute name="units" value="0.001" />
         <ns0:attribute name="missing_value" type="double" value="0.0" />
