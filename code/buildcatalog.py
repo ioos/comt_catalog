@@ -87,13 +87,9 @@ os.chdir('..')
 def git(*args):
     return subprocess.check_call(['git'] + list(args))
 
+git ("add", "-A", ":/")
 git ("commit", "-am", "updated catalogs")
 git ("push")
 
 #os.chdir('/var/www/thredds_instance/content/thredds/testbed2_catalog')
 #git ("pull")
-
-
-
-
-
