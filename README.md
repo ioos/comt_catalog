@@ -10,7 +10,8 @@ which reads a [google drive spreadsheet](https://docs.google.com/spreadsheet/ccc
 ```
 ssh testbed@comt.sura.org
 cd /home/testbed/comt_catalog/code
-python buildcatalog.py
+python buildcatalog_comt1_archive.py
+python buildcatalog_comp2_current.py
 sudo /etc/init.d/tomcat_thredds restart
 ```
 which writes the file
