@@ -31,7 +31,7 @@
   <service name="sos" serviceType="SOS" base="/thredds/sos/"/>
  </service>
  
-<dataset name="Pr Inundation Tropical : NRL : DELFT3D : Hurricane Ike 2D preliminary run 1 without waves" ID="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" urlPath="data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" location=".//data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves/Output/trim-ike.nc" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.4.xsd">
+<dataset name="Pr Inundation Tropical : NRL : DELFT3D : Hurricane Ike 2D preliminary run 1 without waves" ID="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" urlPath="data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" location="/data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves/Output/trim-ike.nc" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.4.xsd">
     <ns0:dimension length="127" name="time" />
     <ns0:dimension length="2" name="time_bounds" />
     <ns0:dimension length="179" name="m" />
@@ -269,7 +269,7 @@
     </ns0:variable>
 <ns0:attribute name="id" value="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" /><ns0:attribute name="cdm_data_type" value="any" /><ns0:attribute name="summary" value="A test of Hurricane Ike (2008) using Delft3D" /></ns0:netcdf></dataset><dataset name="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" ID="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" urlPath="data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
     <ns0:aggregation type="union">
-       <ns0:scan location=".//data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/Output/" regExp=".*ww3\.[0-9]{8}.*\.nc$" subdirs="false" />
+       <ns0:scan location="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/Output/" regExp=".*ww3\.[0-9]{8}.*\.nc$" subdirs="false" />
     </ns0:aggregation>
    <ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="any" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /></ns0:netcdf></dataset>
 
