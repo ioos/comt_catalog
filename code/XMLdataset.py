@@ -25,7 +25,7 @@ def XMLdataset(ncmlFile='c:/rps/xml/thredds/testbedapps_dev/00_dir.ncml',
     datasetID='foo1:foo2:foo3',
     coverage_type='modelResult', #acrosby
     coverage_vars='',            #acrosby
-    cdm_data_type='any'):        #acrosby
+    cdm_data_type=''):        #acrosby
 
 
     try:

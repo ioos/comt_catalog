@@ -59,7 +59,6 @@ for row in rows:
       organization = row['Organization']
       model = row['Model']
       cdmdatatype = row['CDM Type']
-      print cdmdatatype
       dir = row['Data path']
       ncmlName = row['NCML Filename']
       ncmlFile = os.path.join(dir,ncmlName)
@@ -69,6 +68,7 @@ for row in rows:
       catalog = catalog + xml
 
       print wrow
+      print id
 
 #-----------------------------------------------------------------------
 #
