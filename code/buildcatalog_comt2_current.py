@@ -95,6 +95,8 @@ git ("push")
 #git ("pull")
 
 
-
-
+#---------------------------
+#
+#  7) Touch web.xml file to reload THREDDS
+os.system('touch /var/www/thredds_instance/webapps/thredds/WEB-INF/web.xml')
 
