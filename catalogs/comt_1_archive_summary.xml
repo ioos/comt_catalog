@@ -71,6 +71,7 @@
 
 <ns0:attribute name="summary" value="A hindcast of Hurricane Rita (2005) using SLOSH on the egm3 mesh with SLOSH's internal wind model." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D final run with waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
