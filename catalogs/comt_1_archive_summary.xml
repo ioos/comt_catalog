@@ -85,6 +85,9 @@
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
      </ns0:variable>
 
+     <ns0:variable name="depth">
+      <ns0:attribute name="coordinates" value="y x" />
+     </ns0:variable>
  <ns0:variable name="time">
    <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
  </ns0:variable> 
