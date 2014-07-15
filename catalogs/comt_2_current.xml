@@ -272,7 +272,7 @@
  <ns0:variable name="ww3_mesh" shape="" type="int">
   <ns0:attribute name="cf_role" value="mesh_topology" />
   <ns0:attribute name="topology_dimension" type="int" value="2" />
-  <ns0:attribute name="node_coordinates" value="lon lat" />
+  <ns0:attribute name="node_coordinates" value="longitude latitude" />
   <ns0:attribute name="face_node_connectivity" value="tri" />
  </ns0:variable>
  <ns0:variable name="tri">
