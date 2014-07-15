@@ -2875,8 +2875,12 @@
       </ns0:netcdf>
       <ns0:netcdf>
        <ns0:dimension name="time2" orgName="time" />
-       <ns0:variable name="time2" orgName="time" />
+       <ns0:variable name="time2" orgName="time">
+        <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
+        <ns0:attribute name="standard_name" value="time" />
+       </ns0:variable>
        <ns0:aggregation dimName="time" type="joinExisting">
+
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_hvel\.nc$" />
        </ns0:aggregation>
       </ns0:netcdf>
@@ -2956,6 +2960,11 @@
        </ns0:aggregation>
       </ns0:netcdf>
       <ns0:netcdf>
+       <ns0:dimension name="time2" orgName="time" />
+       <ns0:variable name="time2" orgName="time">
+        <ns0:attribute name="units" value="seconds since 2008-09-10 00:00:00" />
+        <ns0:attribute name="standard_name" value="time" />
+       </ns0:variable>
        <ns0:aggregation dimName="time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_without_waves/Output" regExp=".*[0-9]{1}_hvel\.nc$" />
        </ns0:aggregation>
@@ -3445,7 +3454,10 @@
       </ns0:netcdf>
       <ns0:netcdf>
        <ns0:dimension name="time2" orgName="time" />
-       <ns0:variable name="time2" orgName="time" />
+       <ns0:variable name="time2" orgName="time">
+        <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
+        <ns0:attribute name="standard_name" value="time" />
+       </ns0:variable>
        <ns0:aggregation dimName="time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_3D_final_run_with_waves/Output/" regExp=".*[0-9]{1}_hvel\.nc$" />
        </ns0:aggregation>
@@ -3509,14 +3521,14 @@
       <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="coordinates" value="time2 y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
      <ns0:variable name="v" shape="time2 sigma node" type="float">
       <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="coordinates" value="time2 y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
      <ns0:aggregation type="union">
@@ -3527,7 +3539,10 @@
       </ns0:netcdf>
       <ns0:netcdf>
        <ns0:dimension name="time2" orgName="time" />
-       <ns0:variable name="time2" orgName="time" />
+       <ns0:variable name="time2" orgName="time">
+        <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
+        <ns0:attribute name="standard_name" value="time" />
+       </ns0:variable>
        <ns0:aggregation dimName="time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_3D_final_run_without_waves/Output/" regExp=".*[0-9]{1}_hvel\.nc$" />
        </ns0:aggregation>
