@@ -2429,15 +2429,6 @@
       <ns0:attribute name="units" value="non-dimensional" />
       <ns0:attribute name="positive" value="up" />
      </ns0:variable>
-     <ns0:variable name="elev" shape="time node" type="float">
-      <ns0:attribute name="long_name" value="free_surface_elevation" />
-      <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
-      <ns0:attribute name="units" value="m" />
-     </ns0:variable>
      <ns0:variable name="wwm_1" shape="time node" type="float">
       <ns0:attribute name="long_name" value="significant_wave_height" />
       <ns0:attribute name="standard_name" value="sea_surface_wave_significant_height" />
@@ -2465,6 +2456,15 @@
       <ns0:attribute name="coordinates" value="time y x" />
       <ns0:attribute name="units" value="s" />
      </ns0:variable>
+     <ns0:variable name="wwm_15" shape="time node" type="float">
+      <ns0:attribute name="long_name" value="peak_direction" />
+      <ns0:attribute name="standard_name" value="sea_surface_wave_from_direction_at_variance_spectral_density_maximum" />
+      <ns0:attribute name="missing_value" type="float" value="-999.00" />
+      <ns0:attribute name="mesh" value="selfe_mesh" />
+      <ns0:attribute name="location" value="node" />
+      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="units" value="degrees" />
+     </ns0:variable>
      <ns0:aggregation type="union">
       <ns0:netcdf>
        <ns0:aggregation dimName="time" type="joinExisting">
@@ -2481,6 +2481,11 @@
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_2D_final_run_wave_only/Output/" regExp=".*[0-9]{1}_PeakPeriod\.nc$" />
        </ns0:aggregation>
       </ns0:netcdf>
+      <ns0:netcdf>
+       <ns0:aggregation dimName="time" type="joinExisting">
+        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_2D_final_run_wave_only/Output/" regExp=".*[0-9]{1}_pwd\.nc$" />
+       </ns0:aggregation>
+       </ns0:netcdf>
      </ns0:aggregation>
     <ns0:attribute name="id" value="inundation_tropical.VIMS_SELFE.Hurricane_Ike_2D_final_run_wave_only" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : VIMS : SELFE : Hurricane Ike 2D final run wave only" /><ns0:attribute name="summary" value="A hindcast of Hurricane Ike (2008) using WWMII on the ULLR mesh (waves only, no circulation)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : VIMS : SELFE : Hurricane Ike 2D final run with waves" ID="inundation_tropical.VIMS_SELFE.Hurricane_Ike_2D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_2D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <ns0:attribute name="title" type="string" value="Inundation Tropical : VIMS : SELFE : Hurricane Ike 2D final run with waves" />
@@ -3020,6 +3025,15 @@
       <ns0:attribute name="coordinates" value="time y x" />
       <ns0:attribute name="units" value="s" />
      </ns0:variable>
+     <ns0:variable name="wwm_15" shape="time node" type="float">
+      <ns0:attribute name="long_name" value="peak_direction" />
+      <ns0:attribute name="standard_name" value="sea_surface_wave_from_direction_at_variance_spectral_density_maximum" />
+      <ns0:attribute name="missing_value" type="float" value="-999.00" />
+      <ns0:attribute name="mesh" value="selfe_mesh" />
+      <ns0:attribute name="location" value="node" />
+      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="units" value="degrees" />
+     </ns0:variable>
      <ns0:aggregation type="union">
       <ns0:netcdf>
        <ns0:aggregation dimName="time" type="joinExisting">
@@ -3034,6 +3048,11 @@
       <ns0:netcdf>
        <ns0:aggregation dimName="time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_waves_only/Output/" regExp=".*[0-9]{1}_PeakPeriod\.nc$" />
+       </ns0:aggregation>
+      </ns0:netcdf>
+      <ns0:netcdf>
+       <ns0:aggregation dimName="time" type="joinExisting">
+        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_waves_only/Output/" regExp=".*[0-9]{1}_pwd\.nc$" />
        </ns0:aggregation>
       </ns0:netcdf>
      </ns0:aggregation>
