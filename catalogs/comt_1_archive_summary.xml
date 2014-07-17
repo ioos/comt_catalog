@@ -346,7 +346,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_preliminary_run_7_with_waves_without_advection_implicit_1s/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_preliminary_run_7_with_waves_without_advection_implicit_1s" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D preliminary run 7 with waves without advection implicit 1s" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Ike (2008) using SWAN+ADCIRC on the ULLR mesh without advection (implicit time step and waves included)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D preliminary run 8 with waves and levees" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_preliminary_run_8_with_waves_and_levees" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_preliminary_run_8_with_waves_and_levees"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -383,7 +384,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_preliminary_run_8_with_waves_and_levees/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_preliminary_run_8_with_waves_and_levees" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D preliminary run 8 with waves and levees" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Ike (2008) using SWAN+ADCIRC on the UL mesh (levees and waves included)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D preliminary run 9 with waves and levees and river flow" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_preliminary_run_9_with_waves_and_levees_and_river_flow" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_preliminary_run_9_with_waves_and_levees_and_river_flow"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -421,7 +423,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_preliminary_run_9_with_waves_and_levees_and_river_flow/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_preliminary_run_9_with_waves_and_levees_and_river_flow" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D preliminary run 9 with waves and levees and river flow" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Ike (2008) using SWAN+ADCIRC on the UL mesh with river flow (levees, waves, and river flux Atchafalaya and Mississippi River boundary conditions included)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike 3D final run with waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_3D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_3D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -475,7 +478,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_3D_final_run_with_waves/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_3D_final_run_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike 3D final run with waves" /><ns0:attribute name="summary" value="A 3D hindcast of Hurricane Ike (2008) using SWAN+ADCIRC on the ULLR mesh (includes waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike 3D final run without waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_3D_final_run_without_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_3D_final_run_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -548,7 +552,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_3D_preliminary_run_1_spinup/Output/fort.68.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_3D_preliminary_run_1_spinup" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike 3D preliminary run 1 spinup" /><ns0:attribute name="summary" value="A 3D spinup of Hurricane Ike (2008) using ADCIRC on the ULLR mesh." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike Timing with waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_Timing_with_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_Timing_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -587,7 +592,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_Timing_with_waves/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_Timing_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike Timing with waves" /><ns0:attribute name="summary" value="Benchmark portion of a 2D Hurricane Ike (2008) hindcast using SWAN+ADCIRC on the ULLR mesh (includes waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike Timing without waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_Timing_without_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_Timing_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -616,7 +622,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_Timing_without_waves/Output/minpr.63.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_Timing_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike Timing without waves" /><ns0:attribute name="summary" value="Benchmark portion of a 2D Hurricane Ike (2008) hindcast using ADCIRC on the ULLR mesh (does not include waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D final run with waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -654,7 +661,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_final_run_with_waves/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_final_run_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D final run with waves" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Rita (2005) using SWAN+ADCIRC on the ULLR mesh (includes waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D final run without waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_final_run_without_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_final_run_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -683,7 +691,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_final_run_without_waves/Output/minpr.63.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_final_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D final run without waves" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Rita (2005) using ADCIRC on the ULLR mesh (does not include waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 1 spinup" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_1_spinup" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_1_spinup"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -704,7 +713,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_1_spinup/Output/fort.68.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_1_spinup" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 1 spinup" /><ns0:attribute name="summary" value="A 2D spinup of Hurricane Rita (2005) using ADCIRC on the ULLR mesh." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 2 spinup without advection implicit 1s" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_2_spinup_without_advection_implicit_1s" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_2_spinup_without_advection_implicit_1s"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -725,7 +735,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_2_spinup_without_advection_implicit_1s/Output/fort.68.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_2_spinup_without_advection_implicit_1s" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 2 spinup without advection implicit 1s" /><ns0:attribute name="summary" value="A 2D spinup of Hurricane Rita (2005) using ADCIRC on the ULLR mesh without advection (implicit time step)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 3 tides only" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_3_tides_only" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_3_tides_only"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -748,7 +759,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_3_tides_only/Output/fort.64.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_3_tides_only" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 3 tides only" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Rita (2005) using ADCIRC on the ULLR mesh without meteorological forcing (tides only)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 4 with waves without advection implicit 1s" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_4_with_waves_without_advection_implicit_1s" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_4_with_waves_without_advection_implicit_1s"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -787,7 +799,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_4_with_waves_without_advection_implicit_1s/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_4_with_waves_without_advection_implicit_1s" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 4 with waves without advection implicit 1s" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Rita (2005) using ADCIRC on the ULLR mesh without advection (implicit time step and does not include waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 5 without waves and advection implicit 1s" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_5_without_waves_and_advection_implicit_1s" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_5_without_waves_and_advection_implicit_1s"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -817,7 +830,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_2D_preliminary_run_5_without_waves_and_advection_implicit_1s/Output/minpr.63.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_2D_preliminary_run_5_without_waves_and_advection_implicit_1s" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 2D preliminary run 5 without waves and advection implicit 1s" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Rita (2005) using SWAN+ADCIRC on the ULLR mesh without advection (implicit time step and waves included)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 3D final run with waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_3D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_3D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -878,7 +892,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_3D_final_run_with_waves/Output/rads.64.nc" />    
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_3D_final_run_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 3D final run with waves" /><ns0:attribute name="summary" value="A 3D hindcast of Hurricane Rita (2005) using SWAN+ADCIRC on the ULLR mesh (includes waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 3D final run without waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_3D_final_run_without_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_3D_final_run_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -929,7 +944,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_3D_final_run_without_waves/Output/minpr.63.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_3D_final_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 3D final run without waves" /><ns0:attribute name="summary" value="A 3D hindcast of Hurricane Rita (2005) using ADCIRC on the ULLR mesh (does not include waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Rita 3D preliminary run 1 spinup" ID="inundation_tropical.UND_ADCIRC.Hurricane_Rita_3D_preliminary_run_1_spinup" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_3D_preliminary_run_1_spinup"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -950,7 +966,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Rita_3D_preliminary_run_1_spinup/Output/fort.68.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Rita_3D_preliminary_run_1_spinup" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Rita 3D preliminary run 1 spinup" /><ns0:attribute name="summary" value="A 3D spinup of Hurricane Rita (2005) using ADCIRC on the ULLR mesh." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Tides only 2D final run" ID="inundation_tropical.UND_ADCIRC.Tides_only_2D_final_run" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Tides_only_2D_final_run"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -971,7 +988,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Tides_only_2D_final_run/Output/fort.63.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Tides_only_2D_final_run" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Tides only 2D final run" /><ns0:attribute name="summary" value="A 2D hindcast of Tides (portion of 2008) using ADCIRC on the ULLR mesh (tides only)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Tides only 2D preliminary run 1 without advection implicit 1s" ID="inundation_tropical.UND_ADCIRC.Tides_only_2D_preliminary_run_1_without_advection_implicit_1s" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Tides_only_2D_preliminary_run_1_without_advection_implicit_1s"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
@@ -992,7 +1010,8 @@
    <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Tides_only_2D_preliminary_run_1_without_advection_implicit_1s/Output/fort.63.nc" /> 
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Tides_only_2D_preliminary_run_1_without_advection_implicit_1s" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Tides only 2D preliminary run 1 without advection implicit 1s" /><ns0:attribute name="summary" value="A 2D hindcast of Tides (portion of 2008) using ADCIRC on the ULLR mesh without advection (tides only and implicit time step)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Tides only 3D final run" ID="inundation_tropical.UND_ADCIRC.Tides_only_3D_final_run" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Tides_only_3D_final_run"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:remove name="_FillValue" type="attribute" />
 
      <ns0:variable name="adcirc_mesh">
       <ns0:remove name="standard_name" type="attribute" />
