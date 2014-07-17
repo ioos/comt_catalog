@@ -73,46 +73,67 @@
  <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
  <ns0:remove name="_FillValue" type="attribute" />
 
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:remove name="standard_name" type="attribute" />
+  <ns0:remove name="dimension" type="attribute" />
+ </ns0:variable>
 
-     <ns0:variable name="element">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="face_node_connectivity" />
-     </ns0:variable>
+ <ns0:variable name="element">
+  <ns0:attribute name="cf_role" value="face_node_connectivity" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
 
-     <ns0:variable name="depth">
-      <ns0:attribute name="coordinates" value="y x" />
-     </ns0:variable>
-     <ns0:variable name="swan_HS_max">
-      <ns0:attribute name="coordinates" value="y x" />
-     </ns0:variable>
+ <ns0:variable name="depth">
+  <ns0:attribute name="coordinates" value="y x" />
+ </ns0:variable>
+ <ns0:variable name="swan_HS_max">
+  <ns0:attribute name="coordinates" value="y x" />
+  <ns0:attribute name="cell_methods" value="time: maximum" />
+ </ns0:variable>
+ <ns0:variable name="zeta_max">
+  <ns0:attribute name="cell_methods" value="time: maximum" />
+  <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+ </ns0:variable>
+ <ns0:variable name="radstress_max">
+  <ns0:attribute name="cell_methods" value="time: maximum" />
+  <ns0:attribute name="standard_name" value="radiation_stress" />
+ </ns0:variable>
+ <ns0:variable name="vel_max">
+  <ns0:attribute name="cell_methods" value="time: maximum" />
+  <ns0:attribute name="standard_name" value="sea_water_speed" />
+ </ns0:variable>
+ <ns0:variable name="wind_max">
+  <ns0:attribute name="cell_methods" value="time: maximum" />
+  <ns0:attribute name="standard_name" value="wind_speed" />
+ </ns0:variable>
+ <ns0:variable name="pressure_min">
+  <ns0:attribute name="cell_methods" value="time: minimum" />
+  <ns0:attribute name="standard_name" value="air_presssure_at_sea_level" />
+ </ns0:variable>
  <ns0:variable name="time">
-   <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
- </ns0:variable> 
+  <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
+ </ns0:variable>
  <ns0:aggregation type="union">
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.64.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.73.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.74.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxele.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxrs.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxvel.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxwvel.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/minpr.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_DIR.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_DIR_max.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_HS.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_HS_max.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TMM10.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TMM10_max.63.nc" />    
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TPS.63.nc" /> 
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TPS_max.63.nc" />    
-   <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/rads.64.nc" />    
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.64.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.73.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/fort.74.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxele.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxrs.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxvel.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/maxwvel.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/minpr.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_DIR.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_DIR_max.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_HS.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_HS_max.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TMM10.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TMM10_max.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TPS.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/swan_TPS_max.63.nc" />
+  <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_with_waves/Output/rads.64.nc" />
  </ns0:aggregation>
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_final_run_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D final run with waves" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Ike (2008) using SWAN+ADCIRC on the ULLR mesh (includes waves)." /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : ADCIRC : Hurricane Ike 2D final run without waves" ID="inundation_tropical.UND_ADCIRC.Hurricane_Ike_2D_final_run_without_waves" urlPath="data/comt_1_archive/inundation_tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <ns0:attribute name="Conventions" value="UGRID-0.9.0" />
@@ -2363,14 +2384,7 @@
       <ns0:remove name="valid_min" type="attribute" />
       <ns0:remove name="valid_max" type="attribute" />
      </ns0:variable>
-     <ns0:variable name="lonc">
-      <ns0:remove name="valid_min" type="attribute" />
-      <ns0:remove name="valid_max" type="attribute" />
-     </ns0:variable>
-     <ns0:variable name="latc">
-      <ns0:remove name="valid_min" type="attribute" />
-      <ns0:remove name="valid_max" type="attribute" />
-     </ns0:variable>
+
 
  <ns0:variable name="fvcom_mesh" shape="" type="int">
   <ns0:attribute name="cf_role" value="mesh_topology" />
@@ -5436,7 +5450,9 @@
     <ns0:aggregation dimName="ocean_time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005/Output/" regExp=".*ocean_his_synoptic_seg.*\.nc$" subdirs="false" />
     </ns0:aggregation>
-<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_CBOFS.2004-2005" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" /><ns0:attribute name="summary" value="A 2 year simulation of CBOFS-1term (DO computed using a constant respiration rate)" /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : DAL : ROMS : 2004-2009 climatology obc with oxygen hnd soc 20layers" ID="shelf_hypoxia.DAL_ROMS.2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers" urlPath="data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_CBOFS.2004-2005" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" /><ns0:attribute name="summary" value="A 2 year simulation of CBOFS-1term (DO computed using a constant respiration rate)" /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : DAL : ROMS : 
+2004-2009 climatology obc with oxygen hnd soc 20layers" ID="shelf_hypoxia.DAL_ROMS.
+2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers" urlPath="data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
     <ns0:variable name="salt">
         <ns0:attribute name="units" value="0.001" />
         <ns0:attribute name="missing_value" type="double" value="0.0" />
@@ -5450,7 +5466,7 @@
     <ns0:aggregation dimName="ocean_time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers/Output/" regExp=".*his_mch.*\.nc$" subdirs="false" />        
     </ns0:aggregation>
-<ns0:attribute name="id" value="shelf_hypoxia.DAL_ROMS.2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Shelf Hypoxia : DAL : ROMS : 2004-2009 climatology obc with oxygen hnd soc 20layers" /><ns0:attribute name="summary" value="A five year (2004-2009) simulation of hypoxia in the Northern Gulf of Mexico using ROMS with the 7-component biological model by Fennel (2006, 2011,2013),HYCOM at the open boundaries, Hetland and DiMarco (2008) parameterization of sediment oxygen consumption, and 30 vertical layers. " /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : DAL : ROMS : 2004-2009 climatology obc with oxygen inst rem 20layers" ID="shelf_hypoxia.DAL_ROMS.2004-2009_climatology_obc_with_oxygen_inst_rem_20layers" urlPath="data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_inst_rem_20layers"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="shelf_hypoxia.DAL_ROMS.&#10;2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Shelf Hypoxia : DAL : ROMS : &#10;2004-2009 climatology obc with oxygen hnd soc 20layers" /><ns0:attribute name="summary" value="A five year (2004-2009) simulation of hypoxia in the Northern Gulf of Mexico using ROMS with the 7-component biological model by Fennel (2006, 2011,2013),HYCOM at the open boundaries, Hetland and DiMarco (2008) parameterization of sediment oxygen consumption, and 30 vertical layers. " /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : DAL : ROMS : 2004-2009 climatology obc with oxygen inst rem 20layers" ID="shelf_hypoxia.DAL_ROMS.2004-2009_climatology_obc_with_oxygen_inst_rem_20layers" urlPath="data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_inst_rem_20layers"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
     <ns0:variable name="salt">
         <ns0:attribute name="units" value="0.001" />
         <ns0:attribute name="missing_value" type="double" value="0.0" />
