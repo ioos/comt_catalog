@@ -190,6 +190,7 @@
   <ns0:attribute name="mesh" value="adcirc_mesh" />
   <ns0:attribute name="location" value="node" />
   <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
   <ns0:remove name="positive" type="attribute" />
  </ns0:variable>
  <ns0:variable name="x">
