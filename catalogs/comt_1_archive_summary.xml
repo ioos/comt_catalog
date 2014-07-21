@@ -221,13 +221,31 @@
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
 
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
-
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
@@ -246,21 +264,37 @@
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
 
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
 
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
      </ns0:variable>
-     <ns0:variable name="zeta2">
-      <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
-      <ns0:attribute name="units" value="m" />
-     </ns0:variable>
+
      <ns0:variable name="time">
       <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
       <ns0:attribute name="testunits" value="seconds since 2008-07-31 12:00:00" />
@@ -275,13 +309,31 @@
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
 
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
-
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
@@ -299,12 +351,31 @@
  <ns0:variable name="depth">
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
 
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
@@ -325,13 +396,31 @@
  <ns0:variable name="depth">
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
-
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
@@ -357,12 +446,31 @@
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
 
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
 
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
@@ -398,12 +506,31 @@
  <ns0:variable name="depth">
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
 
      <ns0:variable name="element">
       <ns0:remove name="standard_name" type="attribute" />
@@ -438,16 +565,35 @@
  <ns0:variable name="depth">
   <ns0:attribute name="coordinates" value="y x" />
  </ns0:variable>
-     <ns0:variable name="adcirc_mesh">
-      <ns0:remove name="standard_name" type="attribute" />
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:remove name="dimension" type="attribute" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-     </ns0:variable>
-
+ <ns0:variable name="adcirc_mesh">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="face_node_connectivity" value="element" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:remove name="dimension" type="attribute" />
+  <ns0:remove name="standard_name" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="zeta2">
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="mesh" value="adcirc_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="water_surface_height_above_reference_datum" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="x">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="y">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
      <ns0:variable name="element">
-      <ns0:remove name="standard_name" type="attribute" />
+      
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
+      <ns0:remove name="standard_name" type="attribute" />
      </ns0:variable>
 
  <ns0:variable name="time">
