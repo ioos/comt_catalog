@@ -4,7 +4,7 @@ Created on Mon Feb 20 08:52:32 2012
 
 @author: rsignell
 """
-import ncml2 as ncml
+import ncml 
 import StringIO
 
 institutions = {
