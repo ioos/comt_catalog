@@ -29,21 +29,22 @@ def XMLdataset(ncmlFile='c:/rps/xml/thredds/testbedapps_dev/00_dir.ncml',
 
 
     try:
-        ncmlFile = ncml.Dataset.NcmlDataset(ncmlFile)
-        ncmlFile.addDatasetAttribute('id',datasetID)
-        ncmlFile.addDatasetAttribute('cdm_data_type',cdm_data_type)
-        ncmlFile.addDatasetAttribute('title',datasetName)
-        ncmlFile.addDatasetAttribute('summary',runSummary)
-#        ncmlFile.addDatasetAttribute('institution', institutions[datasetID.split(".")[1]])
+        ncf = ncml.Dataset.NcmlDataset(ncmlFile)
+        ncf.addDatasetAttribute('id',datasetID)
+        ncf.addDatasetAttribute('cdm_data_type',cdm_data_type)
+        ncf.addDatasetAttribute('title',datasetName)
+        ncf.addDatasetAttribute('summary',runSummary)
+        ncf.addDatasetAttribute('ncmlFile',ncmlFile)
+#        ncf.addDatasetAttribute('institution', institutions[datasetID.split(".")[1]])
         
 #        try:
 #            for cvar in coverage_vars.split(','): 
-#                ncmlFile.addVariableAttribute(cvar, 'coverage_content_type', coverage_type)
+#                ncf.addVariableAttribute(cvar, 'coverage_content_type', coverage_type)
 #        except:
 #            pass
 
         strFile = StringIO.StringIO()
-        ncmlFile.writeNcmlBack(strFile)
+        ncf.writeNcmlBack(strFile)
         xml = strFile.getvalue()
         newloc=urlPath+"/Output"
         xml = xml.replace("Output",newloc)
