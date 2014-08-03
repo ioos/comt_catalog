@@ -43,8 +43,8 @@
 
         <ns0:variable name="eta">
             <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+            <ns0:remove name="cell_methods" type="attribute" />
         </ns0:variable>
-
 
 	<ns0:aggregation type="union">
 		<ns0:netcdf>
@@ -119,6 +119,12 @@
   <ns0:attribute name="cell_methods" value="time: minimum" />
   <ns0:attribute name="standard_name" value="air_presssure_at_sea_level" />
  </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
+ </ns0:variable>
+ <ns0:variable name="v-vel">
+  <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
+ </ns0:variable>
  <ns0:variable name="time">
   <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
  </ns0:variable>
@@ -160,6 +166,12 @@
       <ns0:remove name="standard_name" type="attribute" />
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
      </ns0:variable>
+ <ns0:variable name="u-vel">
+  <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
+ </ns0:variable>
+ <ns0:variable name="v-vel">
+  <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
+ </ns0:variable>
      <ns0:variable name="time">
       <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00" />
       <ns0:attribute name="testunits" value="seconds since 2008-07-31 12:00:00" />
@@ -1262,6 +1274,14 @@
 <ns0:attribute name="id" value="inundation_tropical.UND_ADCIRC.Tides_only_3D_final_run" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Tropical : UND : ADCIRC : Tides only 3D final run" /><ns0:attribute name="summary" value="A 3D hindcast of Tides (portion of 2008) using ADCIRC on the ULLR mesh (tides only)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_tropical/UND_ADCIRC/Tides_only_3D_final_run/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : SLOSH : Hurricane Ike final run egl3" ID="inundation_tropical.UND_SLOSH.Hurricane_Ike_final_run_egl3" urlPath="data/comt_1_archive/inundation_tropical/UND_SLOSH/Hurricane_Ike_final_run_egl3"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <ns0:attribute name="Conventions" value="CF-1.0" />
  <ns0:attribute name="Source" value="SLOSH" />
+
+ <ns0:variable name="wxx">
+  <ns0:attribute name="standard_name" value="eastward_wind" />
+ </ns0:variable>
+ <ns0:variable name="wyy">
+  <ns0:attribute name="standard_name" value="northward_wind" />
+ </ns0:variable>
+
  <ns0:aggregation type="union">
       <ns0:netcdf>
        <ns0:aggregation dimName="time" type="joinExisting">
@@ -1272,6 +1292,14 @@
 <ns0:attribute name="id" value="inundation_tropical.UND_SLOSH.Hurricane_Ike_final_run_egl3" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Inundation Tropical : UND : SLOSH : Hurricane Ike final run egl3" /><ns0:attribute name="summary" value="A hindcast of Hurricane Ike (2008) using SLOSH on the egl3 mesh with data-assimilated winds and superimposement of tidal signals." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_tropical/UND_SLOSH/Hurricane_Ike_final_run_egl3/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Inundation Tropical : UND : SLOSH : Hurricane Ike final run egm3" ID="inundation_tropical.UND_SLOSH.Hurricane_Ike_final_run_egm3" urlPath="data/comt_1_archive/inundation_tropical/UND_SLOSH/Hurricane_Ike_final_run_egm3"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <ns0:attribute name="Conventions" value="CF-1.0" />
  <ns0:attribute name="Source" value="SLOSH" />
+
+ <ns0:variable name="wxx">
+  <ns0:attribute name="standard_name" value="eastward_wind" />
+ </ns0:variable>
+ <ns0:variable name="wyy">
+  <ns0:attribute name="standard_name" value="northward_wind" />
+ </ns0:variable>
+
  <ns0:aggregation type="union">
       <ns0:netcdf>
        <ns0:aggregation dimName="time" type="joinExisting">
@@ -1434,6 +1462,10 @@
   <ns0:remove name="grid" type="attribute" />
  </ns0:variable>
 
+ <ns0:variable name="time">
+  <ns0:attribute name="standard_name" value="time" />
+ </ns0:variable>
+
 
 
      <ns0:variable name="lon">
@@ -1505,6 +1537,10 @@
   <ns0:attribute name="location" value="node" />
   <ns0:remove name="positive" type="attribute" />
   <ns0:remove name="grid" type="attribute" />
+ </ns0:variable>
+
+ <ns0:variable name="time">
+  <ns0:attribute name="standard_name" value="time" />
  </ns0:variable>
 
 
@@ -1579,6 +1615,10 @@
   <ns0:attribute name="location" value="node" />
   <ns0:remove name="positive" type="attribute" />
   <ns0:remove name="grid" type="attribute" />
+ </ns0:variable>
+
+ <ns0:variable name="time">
+  <ns0:attribute name="standard_name" value="time" />
  </ns0:variable>
 
      <ns0:variable name="lon">
@@ -1666,6 +1706,10 @@
   <ns0:attribute name="location" value="node" />
   <ns0:remove name="positive" type="attribute" />
   <ns0:remove name="grid" type="attribute" />
+ </ns0:variable>
+
+ <ns0:variable name="time">
+  <ns0:attribute name="standard_name" value="time" />
  </ns0:variable>
 
 
@@ -2662,9 +2706,11 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="longitude" />
       <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="latitude" />
       <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
@@ -2760,6 +2806,14 @@
       <ns0:attribute name="units" value="seconds since 2008-09-10 00:00:00" />
       <ns0:attribute name="standard_name" value="time" />
      </ns0:variable>
+
+     <ns0:variable name="lon">
+      <ns0:attribute name="standard_name" value="longitude" />
+     </ns0:variable>
+     <ns0:variable name="lat">
+      <ns0:attribute name="standard_name" value="latitude" />
+     </ns0:variable>
+
      <ns0:variable name="ele" shape="nface nele" type="int">
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
       <ns0:attribute name="start_index" type="short" value="1" />
@@ -2912,6 +2966,14 @@
       <ns0:attribute name="units" value="seconds since 2008-09-10 00:00:00" />
       <ns0:attribute name="standard_name" value="time" />
      </ns0:variable>
+
+     <ns0:variable name="lon">
+      <ns0:attribute name="standard_name" value="longitude" />
+     </ns0:variable>
+     <ns0:variable name="lat">
+      <ns0:attribute name="standard_name" value="latitude" />
+     </ns0:variable>
+
      <ns0:variable name="ele" shape="nface nele" type="int">
       <ns0:attribute name="cf_role" value="face_node_connectivity" />
       <ns0:attribute name="start_index" type="short" value="1" />
@@ -3021,9 +3083,11 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="longitude" />
       <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="latitude" />
       <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
@@ -3163,9 +3227,11 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="longitude" />
       <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="latitude" />
       <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
