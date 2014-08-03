@@ -5719,6 +5719,15 @@
     <ns0:variable name="zeta">
         <ns0:attribute name="missing_value" type="double" value="0.0" />
     </ns0:variable>
+    <ns0:variable name="ocean_time">
+        <ns0:attribute name="standard_name" type="time" />
+    </ns0:variable>
+    <ns0:variable name="lon_rho">
+        <ns0:attribute name="standard_name" type="longitude" />
+    </ns0:variable>
+    <ns0:variable name="lat_rho">
+        <ns0:attribute name="standard_name" type="latitude" />
+    </ns0:variable>
     <ns0:aggregation dimName="ocean_time" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_inst_rem_20layers/Output/" regExp=".*his_mch.*\.nc$" subdirs="false" />        
     </ns0:aggregation>
