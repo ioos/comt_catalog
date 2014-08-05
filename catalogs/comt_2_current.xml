@@ -267,7 +267,7 @@
         <ns0:attribute name="cell_methods" value="time: point             " />
         <ns0:attribute name="delft3d_name" value="map-series:TAUKSI map-const:TAUETA map-const:ALFAS map-const:KCS" />
     </ns0:variable>
-<ns0:attribute name="id" value="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="summary" value="A test of Hurricane Ike (2008) using Delft3D" /></ns0:netcdf></dataset><dataset name="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" ID="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" urlPath="data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="summary" value="A test of Hurricane Ike (2008) using Delft3D" /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" ID="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" urlPath="data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
  <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
  <ns0:variable name="ww3_mesh" shape="" type="int">
   <ns0:attribute name="cf_role" value="mesh_topology" />
@@ -363,6 +363,6 @@
  <ns0:aggregation type="union">
   <ns0:scan location="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/Output/" regExp=".*ww3\.[0-9]{8}.*\.nc$" subdirs="false" />
  </ns0:aggregation>
-<ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /></ns0:netcdf></dataset>
+<ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/00_dir.ncml" /></ns0:netcdf></dataset>
 
  </catalog>
