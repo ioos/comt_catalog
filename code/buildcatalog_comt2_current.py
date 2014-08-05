@@ -16,6 +16,7 @@ import pyugrid
 import XMLdataset
 import subprocess
   
+os.chdir('/home/testbed/comt_catalog/code')
 #-----------------------------------------------------------------------
 #
 # 2) Read Generic Header and Footer File
@@ -75,7 +76,7 @@ for row in rows:
 
 catalog = (catalog + footer).encode('utf-8')
 
-f = open('../catalogs/comt_2_current.xml','w')
+f = open('/home/testbed/comt_catalog/catalogs/comt_2_current.xml','w')
 f.write(catalog)
 f.close()
 
@@ -83,9 +84,9 @@ f.close()
 #
 # 6) Push to Github
 
-os.chdir('..')
+os.chdir('/home/testbed/comt_catalog')
 def git(*args):
-    return subprocess.check_call(['git'] + list(args))
+    return subprocess.check_call(['/usr/local/bin/git'] + list(args))
 
 git ("add", "-A", ":/")
 git ("commit", "-am", "updated catalogs")
@@ -98,5 +99,5 @@ git ("push")
 #---------------------------
 #
 #  7) Touch web.xml file to reload THREDDS
-os.system('touch /var/www/thredds_instance/webapps/thredds/WEB-INF/web.xml')
+#  os.system('touch /var/www/thredds_instance/webapps/thredds/WEB-INF/web.xml')
 
