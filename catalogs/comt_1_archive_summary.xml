@@ -5939,21 +5939,9 @@
         <ns0:scan location="/data/comt_1_archive/shelf_hypoxia/TAMU_ROMS/2004-2009_ngom_obc_24h/Output/" regExp=".*\.nc$" subdirs="false" />        
     </ns0:aggregation>
 <ns0:attribute name="id" value="shelf_hypoxia.TAMU_ROMS.2004-2009_ngom_obc_24h" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Shelf Hypoxia : TAMU : ROMS : 2004-2009 hycom obc 24h" /><ns0:attribute name="summary" value="A five year (2004-2009) simulation of hydrodynamics in the Northern Gulf of &#10;Mexico using ROMS and NGOM (NOAA/POM) at the open boundaries with 24 hour resolution." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/shelf_hypoxia/TAMU_ROMS/2004-2009_ngom_obc_24h/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : EFDC : 2004_DO" ID="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/Output/new.nc">
-  <ns0:dimension length="240" name="ny" />
-  <ns0:dimension length="111" name="nx" />
-  <ns0:dimension length="8651" name="time" />
-  <ns0:dimension length="20" name="sigma" />
   <ns0:attribute name="Conventions" value="CF-1.4" />
-  <ns0:attribute name="model" value="EDFC" />
-  <ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : EFDC : 2004_DO" />
-  <ns0:attribute name="comment" value="EFDC 2004 Estuarine Hypoxia Simulation for Chesapeake Bay by Jian Shen, VIMS" />
-  <ns0:attribute name="summary" value="One year (2004) simulation of dissolved oxygen, salinity, and velocity in Chesapeake Bay" />
-  <ns0:attribute name="source" value="CSDL/MMAP" />
-  <ns0:attribute name="institution" value="SGI O300" />
-  <ns0:attribute name="history" value="Operation-COOPS ;&#10;FMRC Best Dataset" />
-  <ns0:attribute name="references" value="shen@vims.edu" />
   <ns0:attribute name="cdm_data_type" value="grid" />
   <ns0:attribute name="featureType" value="grid" />
-<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/00_dir.ncml" /></ns0:netcdf></dataset>
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : EFDC : 2004_DO" /><ns0:attribute name="summary" value="One year (2004) simulation of dissolved oxygen, salinity, and velocity in Chesapeake Bay" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/00_dir.ncml" /></ns0:netcdf></dataset>
 
  </catalog>
