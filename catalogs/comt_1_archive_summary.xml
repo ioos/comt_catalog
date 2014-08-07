@@ -5744,7 +5744,69 @@
    </ns0:aggregation>
   </ns0:netcdf>
  </ns0:aggregation>
-<ns0:attribute name="id" value="inundation_extratropical.VIMS_SELFE.2010_2D_preliminary_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Extratropical : VIMS : SELFE : 2010 2D preliminary run without waves" /><ns0:attribute name="summary" value="A 2D hindcast of Tides (portion of 2010) using SELFE on the Scituate mesh (does not include waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_extratropical/VIMS_SELFE/2010_2D_preliminary_run_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" ID="estuarine_hypoxia.VIMS_CBOFS.2004-2005" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="inundation_extratropical.VIMS_SELFE.2010_2D_preliminary_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Extratropical : VIMS : SELFE : 2010 2D preliminary run without waves" /><ns0:attribute name="summary" value="A 2D hindcast of Tides (portion of 2010) using SELFE on the Scituate mesh (does not include waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_extratropical/VIMS_SELFE/2010_2D_preliminary_run_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : UMCES : ChesROMS-BGC : 1991-2005 BGC" ID="estuarine_hypoxia.UMCES_ChesROMS-BGC.1991-2005_BGC" urlPath="data/comt_1_archive/estuarine_hypoxia/UMCES_ChesROMS-BGC/1991-2005_BGC"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+
+    <ns0:variable name="zeta">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+    </ns0:variable>
+
+    <ns0:variable name="ubar">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="barotropic_x_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="vbar">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="barotropic_y_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="sustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="svstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bvstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    <ns0:variable name="salt">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_water_salinity" />
+    </ns0:variable>
+
+    <ns0:variable name="temp">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="sea_water_potential_temperature" />
+    </ns0:variable>
+
+    <ns0:variable name="rho">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    <ns0:variable name="u">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="x_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="v">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="y_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="w">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    
+    <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
+        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/UMCES_ChesROMS-BGC/1991-2005_BGC/Output/history_output/" subdirs="true" suffix=".nc" />
+    </ns0:aggregation>
+<ns0:attribute name="id" value="estuarine_hypoxia.UMCES_ChesROMS-BGC.1991-2005_BGC" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : UMCES : ChesROMS-BGC : 1991-2005 BGC" /><ns0:attribute name="summary" value="A 15 year simulation of ChesROMS-BGC (DO computed using full biogeochemistry)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/UMCES_ChesROMS-BGC/1991-2005_BGC/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" ID="estuarine_hypoxia.VIMS_CBOFS.2004-2005" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
     <ns0:variable name="salt">
         <ns0:attribute name="units" value="0.001" />
         <ns0:attribute name="missing_value" type="double" value="0.0" />
