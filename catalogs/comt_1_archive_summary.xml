@@ -6005,5 +6005,6 @@
   <ns0:attribute name="cdm_data_type" value="grid" />
   <ns0:attribute name="featureType" value="grid" />
 <ns0:attribute name="id" value="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : EFDC : 2004_DO" /><ns0:attribute name="summary" value="One year (2004) simulation of dissolved oxygen, salinity, and velocity in Chesapeake Bay" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/00_dir.ncml" /></ns0:netcdf></dataset>
+   <catalogRef xlink:href="http://oceanmodeling.pmc.ucsc.edu:8080/thredds/catalog/ccsnrt_physbio/fmrc/catalog.xml" xlink:title="CCSNRT Phys Bio Aggregation/Best Time Series" name=""/>
 
  </catalog>
