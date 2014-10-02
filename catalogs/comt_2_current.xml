@@ -365,4 +365,7 @@
  </ns0:aggregation>
 <ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/00_dir.ncml" /></ns0:netcdf></dataset>
 
+
+   <catalogRef xlink:href="http://oceanmodeling.pmc.ucsc.edu:8080/thredds/catalog/ccsnrt_physbio/fmrc/catalog.xml" xlink:title="CCSNRT Phys Bio Aggregation/Best Time Series" name=""/>
+
  </catalog>
