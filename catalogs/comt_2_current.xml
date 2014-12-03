@@ -31,7 +31,339 @@
   <service name="sos" serviceType="SOS" base="/thredds/sos/"/>
  </service>
  
+<dataset name="Pr Inundation Tropical : NRL : DELFT3D : Hurricane Ike 2D preliminary run 1 without waves" ID="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" urlPath="data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" location="/data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves/Output/trim-ike.nc" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.4.xsd">
+    <ns0:dimension length="127" name="time" />
+    <ns0:dimension length="2" name="time_bounds" />
+    <ns0:dimension length="179" name="m" />
+    <ns0:dimension length="129" name="n" />
+    <ns0:dimension length="4" name="bounds4" />
+    <ns0:dimension length="1" name="Layer" />
+    <ns0:dimension length="2" name="LayerInterf" />
+    <ns0:dimension length="180" name="grid_m" />
+    <ns0:dimension length="130" name="grid_n" />
+    <ns0:dimension length="2" name="bounds2" />
+    <ns0:attribute name="title" value="Pr Inundation Tropical : NRL : DELFT3D : Hurricane Ike 2D preliminary run 1 without waves" />
+    <ns0:attribute name="institution" value="" />
+    <ns0:attribute name="source" value="Delft3D trim file" />
+    <ns0:attribute name="history" value="Original filename: trim-ike.dat, Deltares, FLOW2D3D Version 5.01.00.2350, Mar 13 2013, 15:39:06, file version: 3.54.29, file date:2013-04-04 15:21:00, transformation to netCDF: $HeadURL: https://svn.oss.deltares.nl/repos/openearthtools/trunk/matlab/applications/delft3d/vs_trim2nc.m $ $Id: vs_trim2nc.m 10615 2014-04-28 10:03:00Z boer_g $" />
+    <ns0:attribute name="references" value="http://svn.oss.deltares.nl" />
+    <ns0:attribute name="email" value="" />
+    <ns0:attribute name="comment" value="" />
+    <ns0:attribute name="version" value="Deltares, FLOW2D3D Version 5.01.00.2350, Mar 13 2013, 15:39:06, file version: 3.54.29" />
+    <ns0:attribute name="Conventions" value="CF-1.6" />
+    <ns0:attribute name="terms_for_use" value="These data can be used freely for research purposes provided that the following source is acknowledged: " />
+    <ns0:attribute name="disclaimer" value="This data is made available in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE." />
+    <ns0:attribute name="delft3d_description" value="                              &#10;                              &#10;                              &#10;                              &#10;                              &#10;                              &#10;                              &#10;                              &#10;                              &#10;                              &#10;" />
+    <ns0:attribute name="time_coverage_start" value="2008-09-09T00:00" />
+    <ns0:attribute name="time_coverage_end" value="2008-09-14T06:00" />
+    <ns0:attribute name="geospatial_lat_min" type="double" value="18.149999618530273" />
+    <ns0:attribute name="geospatial_lat_max" type="double" value="30.75" />
+    <ns0:attribute name="geospatial_lat_units" value="dergees_north" />
+    <ns0:attribute name="geospatial_lon_min" type="double" value="-97.8499984741211" />
+    <ns0:attribute name="geospatial_lon_max" type="double" value="-80.25" />
+    <ns0:attribute name="geospatial_lon_units" value="dergees_east" />
+    <ns0:attribute name="geospatial_vertical_min" type="double" value="-67.0625" />
+    <ns0:attribute name="geospatial_vertical_max" type="double" value="7146.62353515625" />
+    <ns0:attribute name="geospatial_vertical_units" value="m" />
+    <ns0:attribute name="geospatial_vertical_positive" value="down" />
+    <ns0:variable name="time" shape="time" type="double">
+        <ns0:attribute name="standard_name" value="time" />
+        <ns0:attribute name="long_name" value="time" />
+        <ns0:attribute name="units" value="days since 1970-01-01 00:00:00 " />
+        <ns0:attribute name="axis" value="T" />
+        <ns0:attribute name="delft3d_name" value="map-info-series:ITMAPC map-const:ITDATE map-const:DT map-const:TUNIT" />
+        <ns0:attribute name="actual_range" type="double" value="14131.0 14136.25" />
+        
+        <ns0:remove name="bounds" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="time_bounds" shape="time_bounds time" type="double">
+        <ns0:attribute name="long_name" value="time bounds" />
+        <ns0:attribute name="actual_range" value="2008-09-09 00:00:00&#9;2008-09-14 06:00:00" />
+    </ns0:variable>
+    <ns0:remove name="m" type="variable" />
+    <ns0:remove name="n" type="variable" />
+    <ns0:variable name="grid_longitude" shape="m n bounds4" type="float">
+        
+        <ns0:attribute name="long_name" value="grid cell corners, longitude-bounds" />
+        <ns0:attribute name="units" value="degrees_east" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-97.9000015258789 0.0" />
+        <ns0:attribute name="delft3d_name" value="map-const:XCOR map-const:CODB map-const:COORDINATES" />
+        <ns0:remove name="axis" type="attribute" />
+        <ns0:remove name="standard_name" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="grid_latitude" shape="m n bounds4" type="float">
+      
+        
+        <ns0:attribute name="long_name" value="grid cell corners, latitude-bounds" />
+        <ns0:attribute name="units" value="degrees_north" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="0.0 30.799999237060547" />
+        <ns0:attribute name="delft3d_name" value="map-const:YCOR map-const:CODB map-const:COORDINATES" />
+        <ns0:remove name="axis" type="attribute" />
+        <ns0:remove name="standard_name" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="k" shape="Layer" type="float">
+        <ns0:attribute name="long_name" value="layer index" />
+        <ns0:attribute name="units" value="1" />
+        <ns0:attribute name="axis" value="Z" />
 
+        <ns0:attribute name="comment" value="The surface layer has index k=1, the bottom layer has index kmax." />
+        <ns0:attribute name="delft3d_name" value="map-const:KMAX map-const:LAYER_MODEL" />
+        <ns0:remove name="positive" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="Layer" shape="Layer" type="float">
+        <ns0:attribute name="long_name" value="sigma at layer midpoints" />
+        <ns0:attribute name="standard_name" value="ocean_sigma_coordinate" />
+        <ns0:attribute name="positive" value="up" />
+        <ns0:attribute name="formula_terms" value="sigma: Layer eta: waterlevel depth: depth" />
+        <ns0:attribute name="actual_range" type="double" value="-0.5 -0.5" />
+        <ns0:attribute name="comment" value="The surface layer has index k=1 and is sigma=0, the bottom layer has index kmax and is sigma=-1." />
+        <ns0:attribute name="delft3d_name" value="map-const:KMAX map-const:LAYER_MODEL map-const:THICK" />
+    </ns0:variable>
+    <ns0:variable name="LayerInterf" shape="LayerInterf" type="float">
+        <ns0:attribute name="long_name" value="sigma at layer interfaces" />
+        <ns0:attribute name="standard_name" value="ocean_sigma_coordinate" />
+        <ns0:attribute name="positive" value="up" />
+        <ns0:attribute name="formula_terms" value="sigma: LayerInterf eta: waterlevel depth: depth" />
+        <ns0:attribute name="actual_range" type="double" value="-1.0 0.0" />
+        <ns0:attribute name="comment" value="The surface layer has index k=1 and is sigma=0, the bottom layer has index kmax and is sigma=-1." />
+        <ns0:attribute name="delft3d_name" value="map-const:KMAX map-const:LAYER_MODEL map-const:THICK" />
+    </ns0:variable>
+    <ns0:variable name="grid_depth" shape="grid_m grid_n" type="float">
+        <ns0:attribute name="standard_name" value="sea_floor_depth_below_sea_level" />
+        <ns0:attribute name="long_name" value="depth of cell corners" />
+        <ns0:attribute name="units" value="m" />
+
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="NaN NaN" />
+        <ns0:attribute name="delft3d_name" value="map-const:DP map-const:DP0 map-const:DPS map-const:DRYFLP" />
+        <ns0:attribute name="comment" value="" />
+        <ns0:remove name="positive" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="longitude" shape="m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="longitude" />
+        <ns0:attribute name="long_name" value="grid cell centers, longitude-coordinate" />
+        <ns0:attribute name="units" value="degrees_east" />
+        <ns0:attribute name="axis" value="X" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-97.8499984741211 -80.25" />
+        <ns0:attribute name="delft3d_name" value="map-const:XZ map-const:KCS map-const:CODW map-const:COORDINATES" />
+        
+        <ns0:remove name="bounds" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="latitude" shape="m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="latitude" />
+        <ns0:attribute name="long_name" value="grid cell centers, latitude-coordinate" />
+        <ns0:attribute name="units" value="degrees_north" />
+        <ns0:attribute name="axis" value="Y" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="18.149999618530273 30.75" />
+        <ns0:attribute name="delft3d_name" value="map-const:YZ map-const:KCS map-const:YWAT map-const:CODW map-const:COORDINATES" />
+        
+        <ns0:remove name="bounds" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="depth" shape="m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="sea_floor_depth_below_sea_level" />
+        <ns0:attribute name="long_name" value="depth of cell centers" />
+        <ns0:attribute name="units" value="m" />
+
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-7146.62353515625 67.0625" />
+        <ns0:attribute name="delft3d_name" value="map-const:DPS0 map-const:KCS" />
+        <ns0:attribute name="comment" value="" />
+        <ns0:remove name="positive" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="zactive" shape="m n" type="float">
+        
+        <ns0:attribute name="long_name" value="active water-level point" />
+        <ns0:attribute name="units" value="1" />
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="0.0 1.0" />
+        <ns0:attribute name="delft3d_name" value="map-const:KCS" />
+    </ns0:variable>
+    <ns0:variable name="area" shape="m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="cell_area" />
+        <ns0:attribute name="long_name" value="area of grid cells" />
+        <ns0:attribute name="units" value="degrees2" />
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="0.009999694826547056 0.010000648500863463" />
+        <ns0:attribute name="delft3d_name" value="map-const:GSQS map-const:KCS" />
+        <ns0:attribute name="comment" value="This is the exact area spanned geometrically by the 4 corner points. This is not identical to the area GSQS used internally in Delft3D for mass-conservation!" />
+    </ns0:variable>
+    <ns0:variable name="waterlevel" shape="time m n" type="float">
+                <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+        <ns0:attribute name="long_name" value="water level" />
+        <ns0:attribute name="units" value="m" />
+
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-2.1335089206695557 67.0625" />
+        <ns0:attribute name="cell_methods" value="time: point             " />
+        <ns0:attribute name="delft3d_name" value="map-series:S1 map-const:KCS" />
+        <ns0:remove name="positive" type="attribute" />
+    </ns0:variable>
+    <ns0:variable name="velocity_x" shape="time Layer m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
+        <ns0:attribute name="long_name" value="velocity, lon-component" />
+        <ns0:attribute name="units" value="m/s" />
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-2.641201972961426 1.032794177532196" />
+        <ns0:attribute name="cell_methods" value="time: point             " />
+        <ns0:attribute name="delft3d_name" value="map-series:U1 map-series:V1 map-const:ALFAS map-const:KCU map-const:KCV map-const:KFU map-const:KFV map-const:KCS" />
+    </ns0:variable>
+    <ns0:variable name="velocity_y" shape="time Layer m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
+        <ns0:attribute name="long_name" value="velocity, lat-component" />
+        <ns0:attribute name="units" value="m/s" />
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-1.5238654017448425 6.197527885437012" />
+        <ns0:attribute name="cell_methods" value="time: point             " />
+        <ns0:attribute name="delft3d_name" value="map-series:U1 map-series:V1 map-const:ALFAS map-const:KCU map-const:KCV map-const:KFU map-const:KFV map-const:KCS" />
+    </ns0:variable>
+    <ns0:variable name="tau_x" shape="time m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="surface_downward_northward_stress" />
+        <ns0:attribute name="long_name" value="bed shear stress, x-component" />
+        <ns0:attribute name="units" value="N/m2" />
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-93.80084991455078 157.3847198486328" />
+        <ns0:attribute name="cell_methods" value="time: point             " />
+        <ns0:attribute name="delft3d_name" value="map-series:TAUKSI map-const:TAUETA map-const:ALFAS map-const:KCS" />
+    </ns0:variable>
+    <ns0:variable name="tau_y" shape="time m n" type="float">
+        
+        <ns0:attribute name="standard_name" value="surface_downward_eastward_stress" />
+        <ns0:attribute name="long_name" value="bed shear stress, y-component" />
+        <ns0:attribute name="units" value="N/m2" />
+        <ns0:attribute name="coordinates" value="latitude longitude" />
+        <ns0:attribute name="_FillValue" type="float" value="NaN" />
+        <ns0:attribute name="missing_value" type="float" value="NaN" />
+        <ns0:attribute name="actual_range" type="double" value="-2561.92041015625 373.8990173339844" />
+        <ns0:attribute name="cell_methods" value="time: point             " />
+        <ns0:attribute name="delft3d_name" value="map-series:TAUKSI map-const:TAUETA map-const:ALFAS map-const:KCS" />
+    </ns0:variable>
+<ns0:attribute name="id" value="pr_inundation_tropical.NRL_DELFT3D.Hurricane_Ike_2D_preliminary_run_1_without_waves" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="summary" value="A test of Hurricane Ike (2008) using Delft3D" /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/NRL_Delft3D/Hurricane_Ike_2D_preliminary_run_1_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" ID="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" urlPath="data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <ns0:attribute name="Conventions" value="CF-1.6, UGRID-0.9" />
+ <ns0:variable name="ww3_mesh" shape="" type="int">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="longitude latitude" />
+  <ns0:attribute name="face_node_connectivity" value="tri" />
+ </ns0:variable>
+ <ns0:variable name="tri">
+  <ns0:attribute name="cf_role" value="face_node_connectivity" />
+  <ns0:attribute name="start_index" type="short" value="1" />
+ </ns0:variable>
+ <ns0:variable name="Depth">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="U">
+ <ns0:attribute name="mesh" value="ww3_mesh" />
+ <ns0:attribute name="location" value="node" />
+ <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="V">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="hs">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="wlv">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="U10">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="V10">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="t">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="uuss">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="vuss">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="dir">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="Fp3D">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time f latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="Fp2D">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="p2Tp">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="mssx">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:variable name="mssy">
+  <ns0:attribute name="mesh" value="ww3_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time latitude longitude" />
+ </ns0:variable>
+ <ns0:aggregation type="union">
+  <ns0:scan location="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/Output/" regExp=".*ww3\.[0-9]{8}.*\.nc$" subdirs="false" />
+ </ns0:aggregation>
+<ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/00_dir.ncml" /></ns0:netcdf></dataset>
    <catalogRef xlink:href="http://oceanmodeling.pmc.ucsc.edu:8080/thredds/catalog/ccsnrt_physbio/fmrc/catalog.xml" xlink:title="CCSNRT Phys Bio Aggregation/Best Time Series" name=""/>
 
  </catalog>
