@@ -5744,21 +5744,11 @@
    </ns0:aggregation>
   </ns0:netcdf>
  </ns0:aggregation>
-<ns0:attribute name="id" value="inundation_extratropical.VIMS_SELFE.2010_2D_preliminary_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Extratropical : VIMS : SELFE : 2010 2D preliminary run without waves" /><ns0:attribute name="summary" value="A 2D hindcast of Tides (portion of 2010) using SELFE on the Scituate mesh (does not include waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_extratropical/VIMS_SELFE/2010_2D_preliminary_run_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : UMCES : ChesROMS-BGC : 1991-2005 BGC" ID="estuarine_hypoxia.UMCES_ChesROMS-BGC.1991-2005_BGC" urlPath="data/comt_1_archive/estuarine_hypoxia/UMCES_ChesROMS-BGC/1991-2005_BGC"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="inundation_extratropical.VIMS_SELFE.2010_2D_preliminary_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="title" value="Inundation Extratropical : VIMS : SELFE : 2010 2D preliminary run without waves" /><ns0:attribute name="summary" value="A 2D hindcast of Tides (portion of 2010) using SELFE on the Scituate mesh (does not include waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_extratropical/VIMS_SELFE/2010_2D_preliminary_run_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : WHOI : ChesROMS-1term : 1991-2005 1termDO" ID="estuarine_hypoxia.WHOI_ChesROMS-1term.1991-2005_1termDO" urlPath="data/comt_1_archive/estuarine_hypoxia/WHOI_ChesROMS-1term/1991-2005_1termDO"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 
     <ns0:variable name="zeta">
         <ns0:attribute name="missing_value" type="float" value="0.0" />
         <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
-    </ns0:variable>
-
-    <ns0:variable name="ubar">
-        <ns0:attribute name="missing_value" type="float" value="0.0" />
-       <ns0:attribute name="standard_name" value="barotropic_x_sea_water_velocity" />
-    </ns0:variable>
-
-    <ns0:variable name="vbar">
-        <ns0:attribute name="missing_value" type="float" value="0.0" />
-       <ns0:attribute name="standard_name" value="barotropic_y_sea_water_velocity" />
     </ns0:variable>
 
     <ns0:variable name="sustr">
@@ -5784,8 +5774,10 @@
        <ns0:attribute name="standard_name" value="sea_water_potential_temperature" />
     </ns0:variable>
 
-    <ns0:variable name="rho">
+    <ns0:variable name="dye_01">
         <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="scale_factor" type="float" value="0.032" />
+        <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
     </ns0:variable>
 
     <ns0:variable name="u">
@@ -5804,23 +5796,179 @@
 
     
     <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/UMCES_ChesROMS-BGC/1991-2005_BGC/Output/history_output/" subdirs="true" suffix=".nc" />
+        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/WHOI_ChesROMS-1term/1991-2005_1termDO/Output/history_output/" regExp=".*chesapeake_TPLsm_[0-9]{4}_his_const1p7_1e5_[0-9]{4}\.nc$" subdirs="true" />
     </ns0:aggregation>
-<ns0:attribute name="id" value="estuarine_hypoxia.UMCES_ChesROMS-BGC.1991-2005_BGC" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : UMCES : ChesROMS-BGC : 1991-2005 BGC" /><ns0:attribute name="summary" value="A 15 year simulation of ChesROMS-BGC (DO computed using full biogeochemistry)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/UMCES_ChesROMS-BGC/1991-2005_BGC/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" ID="estuarine_hypoxia.VIMS_CBOFS.2004-2005" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-    <ns0:variable name="salt">
-        <ns0:attribute name="units" value="0.001" />
-        <ns0:attribute name="missing_value" type="double" value="0.0" />
-    </ns0:variable>
-    <ns0:variable name="temp">
-        <ns0:attribute name="missing_value" type="double" value="0.0" />
-    </ns0:variable>
+<ns0:attribute name="id" value="estuarine_hypoxia.WHOI_ChesROMS-1term.1991-2005_1termDO" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : WHOI : ChesROMS-1term : 1991-2005 1termDO" /><ns0:attribute name="summary" value="A 15 year simulation of ChesROMS-1term (DO computed using constant respiration rate)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/WHOI_ChesROMS-1term/1991-2005_1termDO/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : EFDC : 2004 DO3d" ID="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/Output/new.nc">
+  <ns0:attribute name="Conventions" value="CF-1.4" />
+  <ns0:attribute name="cdm_data_type" value="grid" />
+  <ns0:attribute name="featureType" value="grid" />
+  <ns0:variable name="do">
+     <ns0:attribute name="units" value="kg m-3" />
+     <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
+  </ns0:variable>
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : EFDC : 2004 DO3d" /><ns0:attribute name="summary" value="A 1 year simulation (2004) of EFDC (DO computed using a simple DO parameterization including SOD)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" ID="estuarine_hypoxia.VIMS_CBOFS.2004-2005" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+
     <ns0:variable name="zeta">
-        <ns0:attribute name="missing_value" type="double" value="0.0" />
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
     </ns0:variable>
-    <ns0:aggregation dimName="ocean_time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005/Output/" regExp=".*ocean_his_synoptic_seg.*\.nc$" subdirs="false" />
+
+    <ns0:variable name="sustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="svstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bvstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    <ns0:variable name="salt">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_water_salinity" />
+    </ns0:variable>
+
+    <ns0:variable name="temp">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="sea_water_potential_temperature" />
+    </ns0:variable>
+
+    <ns0:variable name="dye_01">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="scale_factor" type="float" value="0.032" />
+        <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
+    </ns0:variable>
+
+    <ns0:variable name="u">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="x_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="v">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="y_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="w">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    
+    <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
+        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005/Output/history_files/" regExp=".*ocean_his_synoptic_seg[0-9]{2}\.nc$" subdirs="true" />
     </ns0:aggregation>
-<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_CBOFS.2004-2005" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" /><ns0:attribute name="summary" value="A 2 year simulation of CBOFS-1term (DO computed using a constant respiration rate)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : DAL : ROMS : 2004-2009 climatology obc with oxygen hnd soc 20layers" ID="shelf_hypoxia.DAL_ROMS.2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers" urlPath="data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_CBOFS.2004-2005" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : CBOFS : 2004-2005" /><ns0:attribute name="summary" value="A 2 year simulation of CBOFS-1term (DO computed using a constant respiration rate)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : ChesROMS : 1term constR" ID="estuarine_hypoxia.VIMS_ChesROMS.1term_constR" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_constR"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+
+    <ns0:variable name="zeta">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+    </ns0:variable>
+
+    <ns0:variable name="sustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="svstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bvstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    <ns0:variable name="salt">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_water_salinity" />
+    </ns0:variable>
+
+    <ns0:variable name="temp">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="sea_water_potential_temperature" />
+    </ns0:variable>
+
+    <ns0:variable name="dye_01">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="scale_factor" type="float" value="0.032" />
+        <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
+    </ns0:variable>
+
+    <ns0:variable name="u">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="x_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="v">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="y_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="w">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    
+    <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
+        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_constR/Output/history_files/" regExp=".*chesroms_constR_his_[0-9]{4}_[0-9]{4}\.nc$" subdirs="true" />
+    </ns0:aggregation>
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_ChesROMS.1term_constR" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : ChesROMS : 1term constR" /><ns0:attribute name="summary" value="A 1 year simulation (2004) of ChesROMS-1term (DO computed using constant respiration rate)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_constR/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : ChesROMS : 1term ddR" ID="estuarine_hypoxia.VIMS_ChesROMS.1term_ddR" urlPath="data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_ddR"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+
+    <ns0:variable name="zeta">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+    </ns0:variable>
+
+    <ns0:variable name="sustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="svstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bustr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+    <ns0:variable name="bvstr">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    <ns0:variable name="salt">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="standard_name" value="sea_water_salinity" />
+    </ns0:variable>
+
+    <ns0:variable name="temp">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="sea_water_potential_temperature" />
+    </ns0:variable>
+
+    <ns0:variable name="dye_01">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+        <ns0:attribute name="scale_factor" type="float" value="0.032" />
+        <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
+    </ns0:variable>
+
+    <ns0:variable name="u">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="x_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="v">
+       <ns0:attribute name="missing_value" type="float" value="0.0" />
+       <ns0:attribute name="standard_name" value="y_sea_water_velocity" />
+    </ns0:variable>
+
+    <ns0:variable name="w">
+        <ns0:attribute name="missing_value" type="float" value="0.0" />
+    </ns0:variable>
+
+    
+    <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
+        <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_ddR/Output/history_files/" regExp=".*ocean_his_depth_dep_[0-9]{4}_[0-9]{4}\.nc$" subdirs="true" />
+    </ns0:aggregation>
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_ChesROMS.1term_ddR" /><ns0:attribute name="cdm_data_type" value="grid" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : ChesROMS : 1term ddR" /><ns0:attribute name="summary" value="A 1 year simulation (2004) of ChesROMS-1term (DO computed using depth-dependent respiration rate)" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_ddR/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Shelf Hypoxia : DAL : ROMS : 2004-2009 climatology obc with oxygen hnd soc 20layers" ID="shelf_hypoxia.DAL_ROMS.2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers" urlPath="data/comt_1_archive/shelf_hypoxia/DAL_ROMS/2004-2009_climatology_obc_with_oxygen_hnd_soc_20layers"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
     <ns0:variable name="salt">
         <ns0:attribute name="units" value="0.001" />
         <ns0:attribute name="missing_value" type="double" value="0.0" />
