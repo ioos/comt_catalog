@@ -5813,19 +5813,6 @@
         <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
     </ns0:variable>
 
-    <ns0:variable name="sustr">
-        <ns0:attribute name="missing_value" type="float" value="0.0" />
-    </ns0:variable>
-    <ns0:variable name="svstr">
-        <ns0:attribute name="missing_value" type="float" value="0.0" />
-    </ns0:variable>
-    <ns0:variable name="bustr">
-        <ns0:attribute name="missing_value" type="float" value="0.0" />
-    </ns0:variable>
-    <ns0:variable name="bvstr">
-        <ns0:attribute name="missing_value" type="float" value="0.0" />
-    </ns0:variable>
-
     <ns0:variable name="salt">
         <ns0:attribute name="missing_value" type="float" value="0.0" />
         <ns0:attribute name="standard_name" value="sea_water_salinity" />
