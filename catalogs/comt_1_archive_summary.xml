@@ -5776,7 +5776,7 @@
 
     <ns0:variable name="dye_01">
         <ns0:attribute name="missing_value" type="float" value="0.0" />
-        <ns0:attribute name="units" type="float" value="mg/l" />
+        <ns0:attribute name="units" value="mg/l" />
         <ns0:attribute name="scale_factor" type="float" value="0.032" />
         <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
     </ns0:variable>
@@ -5825,7 +5825,7 @@
     </ns0:variable>
 
     <ns0:variable name="dye_01">
-        <ns0:attribute name="units" type="float" value="mg/l" />
+        <ns0:attribute name="units" value="mg/l" />
         <ns0:attribute name="missing_value" type="float" value="0.0" />
         <ns0:attribute name="scale_factor" type="float" value="0.032" />
         <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
@@ -5882,7 +5882,7 @@
     <ns0:variable name="dye_01">
         <ns0:attribute name="missing_value" type="float" value="0.0" />
         <ns0:attribute name="scale_factor" type="float" value="0.032" />
-        <ns0:attribute name="units" type="float" value="mg/l" />
+        <ns0:attribute name="units" value="mg/l" />
         <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
     </ns0:variable>
 
@@ -5937,7 +5937,7 @@
     <ns0:variable name="dye_01">
         <ns0:attribute name="missing_value" type="float" value="0.0" />
         <ns0:attribute name="scale_factor" type="float" value="0.032" />
-        <ns0:attribute name="units" type="float" value="mg/l" />
+        <ns0:attribute name="units" value="mg/l" />
         <ns0:attribute name="standard_name" value="mass_concentration_of_oxygen_in_sea_water" />
     </ns0:variable>
 
