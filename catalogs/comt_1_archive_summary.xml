@@ -5795,6 +5795,9 @@
         <ns0:attribute name="missing_value" type="float" value="0.0" />
     </ns0:variable>
 
+    <ns0:variable name="ocean_time">
+        <ns0:attribute name="standard_name" value="time" />
+    </ns0:variable>
     
     <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/WHOI_ChesROMS-1term/1991-2005_1termDO/Output/history_output/" regExp=".*chesapeake_TPLsm_[0-9]{4}_his_const1p7_1e5_[0-9]{4}\.nc$" subdirs="true" />
