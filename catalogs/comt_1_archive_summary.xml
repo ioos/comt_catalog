@@ -5848,6 +5848,10 @@
         <ns0:attribute name="missing_value" type="float" value="0.0" />
     </ns0:variable>
 
+    <ns0:variable name="ocean_time">
+       <ns0:attribute name="standard_name" value="time" />
+    </ns0:variable>
+
     
     <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_CBOFS/2004-2005/Output/history_files/" regExp=".*ocean_his_synoptic_seg[0-9]{2}\.nc$" subdirs="true" />
@@ -5959,6 +5963,10 @@
     </ns0:variable>
 
     
+    <ns0:variable name="ocean_time">
+       <ns0:attribute name="standard_name" value="time" />
+    </ns0:variable>
+
     <ns0:aggregation dimName="ocean_time" timeUnitsChange="true" type="joinExisting">
         <ns0:scan location="/data/comt_1_archive/estuarine_hypoxia/VIMS_ChesROMS/1term_ddR/Output/history_files/" regExp=".*ocean_his_depth_dep_[0-9]{4}_[0-9]{4}\.nc$" subdirs="true" />
     </ns0:aggregation>
