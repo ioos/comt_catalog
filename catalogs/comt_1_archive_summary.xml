@@ -3308,9 +3308,11 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="longitude" />
       <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="latitude" />
       <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
@@ -3411,10 +3413,12 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
-      <ns0:attribute name="units" value="m" />
+      <ns0:attribute name="standard_name" value="longitude" />
+      <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
-      <ns0:attribute name="units" value="m" />
+      <ns0:attribute name="standard_name" value="latitude" />
+      <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
       <ns0:attribute name="mesh" value="selfe_mesh" />
@@ -3563,10 +3567,12 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
-      <ns0:attribute name="units" value="m" />
+      <ns0:attribute name="standard_name" value="longitude" />
+      <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
-      <ns0:attribute name="units" value="m" />
+      <ns0:attribute name="standard_name" value="latitude" />
+      <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
       <ns0:attribute name="mesh" value="selfe_mesh" />
@@ -3666,9 +3672,11 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="longitude" />
       <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="latitude" />
       <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
@@ -3807,9 +3815,11 @@
       <ns0:attribute name="start_index" type="short" value="1" />
      </ns0:variable>
      <ns0:variable name="x" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="longitude" />
       <ns0:attribute name="units" value="degrees_east" />
      </ns0:variable>
      <ns0:variable name="y" shape="node" type="float">
+      <ns0:attribute name="standard_name" value="latitude" />
       <ns0:attribute name="units" value="degrees_north" />
      </ns0:variable>
      <ns0:variable name="depth" shape="node" type="float">
