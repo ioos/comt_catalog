@@ -35,9 +35,8 @@ catalog = header
 #
 # 3) Connect to Google Doc
 
-c = gspread.Client(auth=('rsignell@yahoo.com', 'sura_ftp'))
-c.login()
-w = c.open_by_key(key='0AmAEVaW9GoHedFZHU3Z4c1pyMkozWmJxSUlGSDk3eVE')
+gc = gspread.login('rsignell@yahoo.com', 'sura_ftp')
+w = gc.open('IOOS Testbed - Inventory')
 wks = w.worksheet('comt_1_archive')
 rows = wks.get_all_records(empty2zero=False)
 
