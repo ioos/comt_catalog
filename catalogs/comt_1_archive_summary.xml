@@ -3060,150 +3060,159 @@
       <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_2D_final_run_without_waves/Output/coords.nc" /> 
      </ns0:aggregation>
     <ns0:attribute name="id" value="inundation_tropical.VIMS_SELFE.Hurricane_Ike_2D_final_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Ike (2008) using SELFE on the ULLR mesh (does not include waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_2D_final_run_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Inundation Tropical : VIMS : SELFE : Hurricane Ike 3D final run with waves" ID="inundation_tropical.VIMS_SELFE.Hurricane_Ike_3D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-     <ns0:attribute name="title" type="string" value="Inundation Tropical : VIMS : SELFE : Hurricane Ike 3D final run with waves" />
-     <ns0:attribute name="institution" type="string" value="Virginia Institute of Marine Science -- http://web.vims.edu/physical/" />
-     <ns0:attribute name="source" type="string" value="SELFE run  (version v.vvv  compiled yyyy-mm-dd) for Hurricane Ike on the Ultralight mesh using variable drag, wind waves from WWM and 3D depth-averaged physics" />
-     <ns0:attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles" />
-     <ns0:attribute name="references" type="string" value="testbed.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Ike/3D_varied_roughness_windstress_with_wave/Inundation_Model_Metadata_Template_v3_for_3D_windstress_sv_with_wave_Ike.docx" />
-     <ns0:attribute name="comment" type="string" value="David Forrest drf@vims.edu 2012-04-02" />
-     <ns0:variable name="selfe_mesh" shape="" type="int">
-      <ns0:attribute name="cf_role" value="mesh_topology" />
-      <ns0:attribute name="topology_dimension" type="int" value="2" />
-      <ns0:attribute name="node_coordinates" value="x y" />
-      <ns0:attribute name="face_node_connectivity" value="ele" />
-     </ns0:variable>
-     <ns0:variable name="time">
-      <ns0:attribute name="units" value="seconds since 2008-09-10 00:00:00" />
-      <ns0:attribute name="standard_name" value="time" />
-     </ns0:variable>
-     <ns0:variable name="ele" shape="nface nele" type="int">
-      <ns0:attribute name="cf_role" value="face_node_connectivity" />
-      <ns0:attribute name="start_index" type="short" value="1" />
-     </ns0:variable>
-     <ns0:variable name="x" shape="node" type="float">
-      <ns0:attribute name="standard_name" value="longitude" />
-      <ns0:attribute name="units" value="degrees_east" />
-     </ns0:variable>
-     <ns0:variable name="y" shape="node" type="float">
-      <ns0:attribute name="standard_name" value="latitude" />
-      <ns0:attribute name="units" value="degrees_north" />
-     </ns0:variable>
-     <ns0:variable name="depth" shape="node" type="float">
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="y x" />
-      <ns0:attribute name="units" value="m" />
-      <ns0:attribute name="standard_name" value="depth_below_geoid" />
-      <ns0:remove name="positive" type="attribute" />
-     </ns0:variable>
-     <ns0:variable name="sigma" shape="sigma" type="float">
-      <ns0:attribute name="long_name" value="S coordinates at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
-      <ns0:attribute name="positive" value="up" />
-     </ns0:variable>
-     <ns0:variable name="Cs" shape="sigma" type="float">
-      <ns0:attribute name="long_name" value="Function C(s) at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
-      <ns0:attribute name="positive" value="up" />
-     </ns0:variable>
-     <ns0:variable name="elev" shape="time node" type="float">
-      <ns0:attribute name="long_name" value="free_surface_elevation" />
-      <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
-      <ns0:attribute name="units" value="m" />
-     </ns0:variable>
-     <ns0:variable name="wwm_1" shape="time node" type="float">
-      <ns0:attribute name="long_name" value="significant_wave_height" />
-      <ns0:attribute name="standard_name" value="sea_surface_wave_significant_height" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
-      <ns0:attribute name="units" value="m" />
-     </ns0:variable>
-     <ns0:variable name="wwm_3" shape="time node" type="float">
-      <ns0:attribute name="long_name" value="mean_period" />
-      <ns0:attribute name="standard_name" value="sea_surface_wave_period_at_variance_spectral_density_mean" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
-      <ns0:attribute name="units" value="s" />
-     </ns0:variable>
-     <ns0:variable name="wwm_9" shape="time node" type="float">
-      <ns0:attribute name="long_name" value="peak_period" />
-      <ns0:attribute name="standard_name" value="sea_surface_wave_period_at_variance_spectral_density_maximum" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
-      <ns0:attribute name="units" value="s" />
-     </ns0:variable>
-     <ns0:variable name="wwm_15" shape="time node" type="float">
-      <ns0:attribute name="long_name" value="peak_direction" />
-      <ns0:attribute name="standard_name" value="sea_surface_wave_from_direction_at_variance_spectral_density_maximum" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
-      <ns0:attribute name="units" value="degrees" />
-     </ns0:variable>
-     <ns0:variable name="u" shape="time nv node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time2 y x" />
-      <ns0:attribute name="units" value="m/s" />
-     </ns0:variable>
-     <ns0:variable name="v" shape="time nv node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time2 y x" />
-      <ns0:attribute name="units" value="m/s" />
-     </ns0:variable>
-     <ns0:aggregation type="union">
-      <ns0:netcdf>
-       <ns0:aggregation dimName="time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_WaterLevel\.nc$" />
-       </ns0:aggregation>
-      </ns0:netcdf>
-      <ns0:netcdf>
-       <ns0:aggregation dimName="time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_SigWaveHeight\.nc$" />
-       </ns0:aggregation>
-      </ns0:netcdf>
-      <ns0:netcdf>
-       <ns0:aggregation dimName="time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_MeanPeriod\.nc$" />
-       </ns0:aggregation>
-      </ns0:netcdf>
-      <ns0:netcdf>
-       <ns0:aggregation dimName="time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_PeakPeriod\.nc$" />
-       </ns0:aggregation>
-      </ns0:netcdf>
-      <ns0:netcdf>
-       <ns0:aggregation dimName="time" type="joinExisting">
-        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_pwd\.nc$" />
-       </ns0:aggregation>
-      </ns0:netcdf>
-      <ns0:netcdf>
-       <ns0:dimension name="time2" orgName="time" />
-       <ns0:variable name="time2" orgName="time">
-        <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
-        <ns0:attribute name="standard_name" value="time" />
-       </ns0:variable>
-       <ns0:aggregation dimName="time" type="joinExisting">
+ <ns0:attribute name="title" type="string" value="Inundation Tropical : VIMS : SELFE : Hurricane Ike 3D final run with waves" />
+ <ns0:attribute name="institution" type="string" value="Virginia Institute of Marine Science -- http://web.vims.edu/physical/" />
+ <ns0:attribute name="source" type="string" value="SELFE run  (version v.vvv  compiled yyyy-mm-dd) for Hurricane Ike on the Ultralight mesh using variable drag, wind waves from WWM and 3D depth-averaged physics" />
+ <ns0:attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles" />
+ <ns0:attribute name="references" type="string" value="testbed.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Ike/3D_varied_roughness_windstress_with_wave/Inundation_Model_Metadata_Template_v3_for_3D_windstress_sv_with_wave_Ike.docx" />
+ <ns0:attribute name="comment" type="string" value="David Forrest drf@vims.edu 2012-04-02" />
+ <ns0:variable name="selfe_mesh" shape="" type="int">
+  <ns0:attribute name="cf_role" value="mesh_topology" />
+  <ns0:attribute name="topology_dimension" type="int" value="2" />
+  <ns0:attribute name="node_coordinates" value="x y" />
+  <ns0:attribute name="face_node_connectivity" value="ele" />
+ </ns0:variable>
+ <ns0:variable name="time">
+  <ns0:attribute name="units" value="seconds since 2008-09-10 00:00:00" />
+  <ns0:attribute name="standard_name" value="time" />
+ </ns0:variable>
+ <ns0:variable name="ele" shape="nface nele" type="int">
+  <ns0:attribute name="cf_role" value="face_node_connectivity" />
+  <ns0:attribute name="start_index" type="short" value="1" />
+ </ns0:variable>
+ <ns0:variable name="x" shape="node" type="float">
+  <ns0:attribute name="standard_name" value="longitude" />
+  <ns0:attribute name="units" value="degrees_east" />
+ </ns0:variable>
+ <ns0:variable name="y" shape="node" type="float">
+  <ns0:attribute name="standard_name" value="latitude" />
+  <ns0:attribute name="units" value="degrees_north" />
+ </ns0:variable>
+ <ns0:variable name="depth" shape="node" type="float">
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="y x" />
+  <ns0:attribute name="units" value="m" />
+  <ns0:attribute name="standard_name" value="depth_below_geoid" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+ <ns0:variable name="hc" type="float">
+  <ns0:attribute name="units" value="meter" />
+  <ns0:attribute name="long_name" value="S-coordinate parameter, critical depth" />
+  <ns0:values> 1000. </ns0:values>
+ </ns0:variable>
 
-        <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_hvel\.nc$" />
-       </ns0:aggregation>
-      </ns0:netcdf>
-     </ns0:aggregation>
-    <ns0:attribute name="id" value="inundation_tropical.VIMS_SELFE.Hurricane_Ike_3D_final_run_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="summary" value="A 3D hindcast of Hurricane Ike (2008) using WWMII+SELFE on the ULLR mesh (includes waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Inundation Tropical : VIMS : SELFE : Hurricane Ike 3D final run without waves" ID="inundation_tropical.VIMS_SELFE.Hurricane_Ike_3D_final_run_without_waves" urlPath="data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <ns0:variable name="sigma" shape="sigma" type="float">
+  <ns0:attribute name="long_name" value="S coordinates at whole levels" />
+  <ns0:attribute name="units" value="1" />
+  <ns0:attribute name="standard_name" value="ocean_s_coordinate_g1" />
+  <ns0:attribute name="formula_terms" value="s: sigma C: Cs eta: elev depth: depth depth_c: hc" />
+  <ns0:attribute name="positive" value="up" />
+ </ns0:variable>
+
+ <ns0:variable name="Cs" shape="sigma" type="float">
+  <ns0:attribute name="long_name" value="Function C(s) at whole levels" />
+  <ns0:attribute name="units" value="1" />
+  <ns0:remove name="positive" type="attribute" />
+ </ns0:variable>
+
+ <ns0:variable name="elev" shape="time node" type="float">
+  <ns0:attribute name="long_name" value="free_surface_elevation" />
+  <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+  <ns0:attribute name="missing_value" type="float" value="-999.00" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="units" value="m" />
+ </ns0:variable>
+ <ns0:variable name="wwm_1" shape="time node" type="float">
+  <ns0:attribute name="long_name" value="significant_wave_height" />
+  <ns0:attribute name="standard_name" value="sea_surface_wave_significant_height" />
+  <ns0:attribute name="missing_value" type="float" value="-999.00" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="units" value="m" />
+ </ns0:variable>
+ <ns0:variable name="wwm_3" shape="time node" type="float">
+  <ns0:attribute name="long_name" value="mean_period" />
+  <ns0:attribute name="standard_name" value="sea_surface_wave_period_at_variance_spectral_density_mean" />
+  <ns0:attribute name="missing_value" type="float" value="-999.00" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="units" value="s" />
+ </ns0:variable>
+ <ns0:variable name="wwm_9" shape="time node" type="float">
+  <ns0:attribute name="long_name" value="peak_period" />
+  <ns0:attribute name="standard_name" value="sea_surface_wave_period_at_variance_spectral_density_maximum" />
+  <ns0:attribute name="missing_value" type="float" value="-999.00" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="units" value="s" />
+ </ns0:variable>
+ <ns0:variable name="wwm_15" shape="time node" type="float">
+  <ns0:attribute name="long_name" value="peak_direction" />
+  <ns0:attribute name="standard_name" value="sea_surface_wave_from_direction_at_variance_spectral_density_maximum" />
+  <ns0:attribute name="missing_value" type="float" value="-999.00" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time y x" />
+  <ns0:attribute name="units" value="degrees" />
+ </ns0:variable>
+ <ns0:variable name="u">
+  <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time2 y x" />
+  <ns0:attribute name="units" value="m/s" />
+ </ns0:variable>
+ <ns0:variable name="v">
+  <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
+  <ns0:attribute name="mesh" value="selfe_mesh" />
+  <ns0:attribute name="location" value="node" />
+  <ns0:attribute name="coordinates" value="time2 y x" />
+  <ns0:attribute name="units" value="m/s" />
+ </ns0:variable>
+ <ns0:aggregation type="union">
+  <ns0:netcdf>
+   <ns0:aggregation dimName="time" type="joinExisting">
+    <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_WaterLevel\.nc$" />
+   </ns0:aggregation>
+  </ns0:netcdf>
+  <ns0:netcdf>
+   <ns0:aggregation dimName="time" type="joinExisting">
+    <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_SigWaveHeight\.nc$" />
+   </ns0:aggregation>
+  </ns0:netcdf>
+  <ns0:netcdf>
+   <ns0:aggregation dimName="time" type="joinExisting">
+    <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_MeanPeriod\.nc$" />
+   </ns0:aggregation>
+  </ns0:netcdf>
+  <ns0:netcdf>
+   <ns0:aggregation dimName="time" type="joinExisting">
+    <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_PeakPeriod\.nc$" />
+   </ns0:aggregation>
+  </ns0:netcdf>
+  <ns0:netcdf>
+   <ns0:aggregation dimName="time" type="joinExisting">
+    <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_pwd\.nc$" />
+   </ns0:aggregation>
+  </ns0:netcdf>
+  <ns0:netcdf>
+   <ns0:dimension name="time2" orgName="time" />
+   <ns0:variable name="time2" orgName="time">
+    <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
+    <ns0:attribute name="standard_name" value="time" />
+   </ns0:variable>
+   <ns0:aggregation dimName="time" type="joinExisting">
+    <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/Output" regExp=".*[0-9]{1}_hvel\.nc$" />
+   </ns0:aggregation>
+  </ns0:netcdf>
+ </ns0:aggregation>
+<ns0:attribute name="id" value="inundation_tropical.VIMS_SELFE.Hurricane_Ike_3D_final_run_with_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="summary" value="A 3D hindcast of Hurricane Ike (2008) using WWMII+SELFE on the ULLR mesh (includes waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_with_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Inundation Tropical : VIMS : SELFE : Hurricane Ike 3D final run without waves" ID="inundation_tropical.VIMS_SELFE.Hurricane_Ike_3D_final_run_without_waves" urlPath="data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Ike_3D_final_run_without_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <ns0:attribute name="title" type="string" value="Inundation Tropical : VIMS : SELFE : Hurricane Ike 3D final run without waves" />
      <ns0:attribute name="institution" type="string" value="Virginia Institute of Marine Science -- http://web.vims.edu/physical/" />
      <ns0:attribute name="source" type="string" value="SELFE run  (version v.vvv  compiled yyyy-mm-dd) for Hurricane Ike on the Ultralight mesh using variable drag a nd 3D depth-averaged physics" />
