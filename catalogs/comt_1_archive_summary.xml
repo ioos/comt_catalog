@@ -3102,7 +3102,7 @@
   <ns0:values> 1000. </ns0:values>
  </ns0:variable>
 
- <ns0:variable name="sigma" shape="sigma" type="float">
+ <ns0:variable name="sigma">
   <ns0:attribute name="long_name" value="S coordinates at whole levels" />
   <ns0:attribute name="units" value="1" />
   <ns0:attribute name="standard_name" value="ocean_s_coordinate_g1" />
@@ -3110,7 +3110,7 @@
   <ns0:attribute name="positive" value="up" />
  </ns0:variable>
 
- <ns0:variable name="Cs" shape="sigma" type="float">
+ <ns0:variable name="Cs">
   <ns0:attribute name="long_name" value="Function C(s) at whole levels" />
   <ns0:attribute name="units" value="1" />
   <ns0:remove name="positive" type="attribute" />
@@ -3162,17 +3162,17 @@
   <ns0:attribute name="units" value="degrees" />
  </ns0:variable>
  <ns0:variable name="u">
-  <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
+  <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
   <ns0:attribute name="mesh" value="selfe_mesh" />
   <ns0:attribute name="location" value="node" />
-  <ns0:attribute name="coordinates" value="time2 y x" />
+  <ns0:attribute name="coordinates" value="time2 sigma y x" />
   <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
  <ns0:variable name="v">
-  <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
+  <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
   <ns0:attribute name="mesh" value="selfe_mesh" />
   <ns0:attribute name="location" value="node" />
-  <ns0:attribute name="coordinates" value="time2 y x" />
+  <ns0:attribute name="coordinates" value="time2 sigma y x" />
   <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
  <ns0:aggregation type="union">
@@ -3249,15 +3249,26 @@
       <ns0:attribute name="standard_name" value="depth_below_geoid" />
       <ns0:remove name="positive" type="attribute" />
      </ns0:variable>
-     <ns0:variable name="sigma" shape="sigma" type="float">
+     
+     <ns0:variable name="hc" type="float">
+      <ns0:attribute name="units" value="meter" />
+      <ns0:attribute name="long_name" value="S-coordinate parameter, critical depth" />
+      <ns0:values> 1000. </ns0:values>
+     </ns0:variable>
+     
+     
+     <ns0:variable name="sigma">
       <ns0:attribute name="long_name" value="S coordinates at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
+      <ns0:attribute name="units" value="1" />
+      <ns0:attribute name="standard_name" value="ocean_s_coordinate_g1" />
+      <ns0:attribute name="formula_terms" value="s: sigma C: Cs eta: elev depth: depth depth_c: hc" />
       <ns0:attribute name="positive" value="up" />
      </ns0:variable>
-     <ns0:variable name="Cs" shape="sigma" type="float">
+     
+     <ns0:variable name="Cs">
       <ns0:attribute name="long_name" value="Function C(s) at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
-      <ns0:attribute name="positive" value="up" />
+      <ns0:attribute name="units" value="1" />
+      <ns0:remove name="positive" type="attribute" />
      </ns0:variable>
      <ns0:variable name="elev" shape="time node" type="float">
       <ns0:attribute name="long_name" value="free_surface_elevation" />
@@ -3268,18 +3279,18 @@
       <ns0:attribute name="coordinates" value="time y x" />
       <ns0:attribute name="units" value="m" />
      </ns0:variable>
-     <ns0:variable name="u" shape="time node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
+     <ns0:variable name="u">
+      <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="coordinates" value="time2 sigma y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
-     <ns0:variable name="v" shape="time node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
+     <ns0:variable name="v">
+      <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="coordinates" value="time2 sigma y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
      <ns0:aggregation type="union">
@@ -3694,15 +3705,25 @@
       <ns0:attribute name="standard_name" value="depth_below_geoid" />
       <ns0:remove name="positive" type="attribute" />
      </ns0:variable>
-     <ns0:variable name="sigma" shape="sigma" type="float">
+     <ns0:variable name="hc" type="float">
+      <ns0:attribute name="units" value="meter" />
+      <ns0:attribute name="long_name" value="S-coordinate parameter, critical depth" />
+      <ns0:values> 1000. </ns0:values>
+     </ns0:variable>
+     
+     
+     <ns0:variable name="sigma">
       <ns0:attribute name="long_name" value="S coordinates at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
+      <ns0:attribute name="units" value="1" />
+      <ns0:attribute name="standard_name" value="ocean_s_coordinate_g1" />
+      <ns0:attribute name="formula_terms" value="s: sigma C: Cs eta: elev depth: depth depth_c: hc" />
       <ns0:attribute name="positive" value="up" />
      </ns0:variable>
-     <ns0:variable name="Cs" shape="sigma" type="float">
+     
+     <ns0:variable name="Cs">
       <ns0:attribute name="long_name" value="Function C(s) at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
-      <ns0:attribute name="positive" value="up" />
+      <ns0:attribute name="units" value="1" />
+      <ns0:remove name="positive" type="attribute" />
      </ns0:variable>
      <ns0:variable name="elev" shape="time node" type="float">
       <ns0:attribute name="long_name" value="free_surface_elevation" />
@@ -3749,18 +3770,18 @@
       <ns0:attribute name="coordinates" value="time y x" />
       <ns0:attribute name="units" value="degrees" />
      </ns0:variable>
-     <ns0:variable name="u" shape="time2 sigma node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
+     <ns0:variable name="u">
+      <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="coordinates" value="time2 sigma y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
-     <ns0:variable name="v" shape="time2 sigma node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
+     <ns0:variable name="v">
+      <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time y x" />
+      <ns0:attribute name="coordinates" value="time2 sigma y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
      <ns0:aggregation type="union">
@@ -3837,15 +3858,25 @@
       <ns0:attribute name="standard_name" value="depth_below_geoid" />
       <ns0:remove name="positive" type="attribute" />
      </ns0:variable>
-     <ns0:variable name="sigma" shape="sigma" type="float">
+     <ns0:variable name="hc" type="float">
+      <ns0:attribute name="units" value="meter" />
+      <ns0:attribute name="long_name" value="S-coordinate parameter, critical depth" />
+      <ns0:values> 1000. </ns0:values>
+     </ns0:variable>
+     
+     
+     <ns0:variable name="sigma">
       <ns0:attribute name="long_name" value="S coordinates at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
+      <ns0:attribute name="units" value="1" />
+      <ns0:attribute name="standard_name" value="ocean_s_coordinate_g1" />
+      <ns0:attribute name="formula_terms" value="s: sigma C: Cs eta: elev depth: depth depth_c: hc" />
       <ns0:attribute name="positive" value="up" />
      </ns0:variable>
-     <ns0:variable name="Cs" shape="sigma" type="float">
+     
+     <ns0:variable name="Cs">
       <ns0:attribute name="long_name" value="Function C(s) at whole levels" />
-      <ns0:attribute name="units" value="non-dimensional" />
-      <ns0:attribute name="positive" value="up" />
+      <ns0:attribute name="units" value="1" />
+      <ns0:remove name="positive" type="attribute" />
      </ns0:variable>
      <ns0:variable name="elev" shape="time node" type="float">
       <ns0:attribute name="long_name" value="free_surface_elevation" />
@@ -3856,18 +3887,18 @@
       <ns0:attribute name="coordinates" value="time y x" />
       <ns0:attribute name="units" value="m" />
      </ns0:variable>
-     <ns0:variable name="u" shape="time2 sigma node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
+     <ns0:variable name="u">
+      <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time2 y x" />
+      <ns0:attribute name="coordinates" value="time2 sigma y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
-     <ns0:variable name="v" shape="time2 sigma node" type="float">
-      <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
+     <ns0:variable name="v">
+      <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
       <ns0:attribute name="mesh" value="selfe_mesh" />
       <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="time2 y x" />
+      <ns0:attribute name="coordinates" value="time2 sigma y x" />
       <ns0:attribute name="units" value="m/s" />
      </ns0:variable>
      <ns0:aggregation type="union">
