@@ -3203,6 +3203,7 @@
   </ns0:netcdf>
   <ns0:netcdf>
    <ns0:dimension name="time2" orgName="time" />
+   <ns0:dimension name="sigma" orgName="nv" />
    <ns0:variable name="time2" orgName="time">
     <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
     <ns0:attribute name="standard_name" value="time" />
@@ -3301,6 +3302,7 @@
       </ns0:netcdf>
       <ns0:netcdf>
        <ns0:dimension name="time2" orgName="time" />
+       <ns0:dimension name="sigma" orgName="nv" />
        <ns0:variable name="time2" orgName="time">
         <ns0:attribute name="units" value="seconds since 2008-09-10 00:00:00" />
         <ns0:attribute name="standard_name" value="time" />
@@ -3812,6 +3814,7 @@
       </ns0:netcdf>
       <ns0:netcdf>
        <ns0:dimension name="time2" orgName="time" />
+       <ns0:dimension name="sigma" orgName="nv" />
        <ns0:variable name="time2" orgName="time">
         <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
         <ns0:attribute name="standard_name" value="time" />
@@ -3909,6 +3912,7 @@
       </ns0:netcdf>
       <ns0:netcdf>
        <ns0:dimension name="time2" orgName="time" />
+       <ns0:dimension name="sigma" orgName="nv" />
        <ns0:variable name="time2" orgName="time">
         <ns0:attribute name="units" value="seconds since 2005-09-18 00:00:00" />
         <ns0:attribute name="standard_name" value="time" />
