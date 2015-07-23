@@ -3,6 +3,7 @@
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
+  <catalogRef xlink:title="COMT2" xlink:href="comt2.xml" name=""/>
   <catalogRef xlink:title="COMT 2 Full" xlink:href="comt_2_full.xml" name=""/>
   <catalogRef xlink:title="COMT 2 Current" xlink:href="comt_2_current.xml" name=""/>
 

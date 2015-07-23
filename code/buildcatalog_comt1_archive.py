@@ -15,6 +15,10 @@ import gspread
 import pyugrid
 import XMLdataset
 import subprocess
+
+from oauth2client.client import GoogleCredentials
+credentials = GoogleCredentials.get_application_default()
+credentials = credentials.create_scoped(['https://spreadsheets.google.com/feeds'])
   
 os.chdir('/home/testbed/comt_catalog/code')
 #-----------------------------------------------------------------------
@@ -35,9 +39,12 @@ catalog = header
 #
 # 3) Connect to Google Doc
 
-gc = gspread.login('rsignell@yahoo.com', 'sura_ftp')
-w = gc.open('IOOS Testbed - Inventory')
-wks = w.worksheet('comt_1_archive')
+# email/password authentication stopped by google in April 2015
+# oauth2 now required
+#gc = gspread.login('rsignell@yahoo.com', 'sura_ftp')
+
+gc = gspread.authorize(credentials)
+wks = gc.open('IOOS Testbed - Inventory').worksheet('comt_1_archive')
 rows = wks.get_all_records(empty2zero=False)
 
 #-----------------------------------------------------------------------
