@@ -35,9 +35,18 @@ catalog = header
 #
 # 3) Connect to Google Doc
 
-gc = gspread.login('rsignell@yahoo.com', 'sura_ftp')
-w = gc.open('IOOS Testbed - Inventory')
-wks = w.worksheet('comt_2_current')
+# email/password authentication stopped by google in April 2015
+# oauth2 now required
+#gc = gspread.login('rsignell@yahoo.com', 'xxxx')
+
+# Thank god for instructions here:
+# https://github.com/burnash/gspread/issues/224#issuecomment-95626930
+
+from oauth2client.client import GoogleCredentials
+credentials = GoogleCredentials.get_application_default()
+credentials = credentials.create_scoped(['https://spreadsheets.google.com/feeds'])
+gc = gspread.authorize(credentials)
+wks = gc.open('IOOS Testbed - Inventory').worksheet('comt_2_current')
 rows = wks.get_all_records(empty2zero=False)
 
 #-----------------------------------------------------------------------
