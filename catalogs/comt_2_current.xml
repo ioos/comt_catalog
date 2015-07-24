@@ -361,7 +361,434 @@
  <ns0:aggregation type="union">
   <ns0:scan location="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/Output/" regExp=".*ww3\.[0-9]{8}.*\.nc$" subdirs="false" />
  </ns0:aggregation>
-<ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/00_dir.ncml" /></ns0:netcdf></dataset>
+<ns0:attribute name="id" value="pr_inundation_tropical.EMC_ADCIRC-WW3.Dec2013Storm_2D_preliminary_run_1_waves_only" /><ns0:attribute name="cdm_data_type" value="" /><ns0:attribute name="title" value="Pr Inundation Tropical : EMC : ADCIRC-WW3 : Dec2013Storm 2D preliminary run 1 waves only" /><ns0:attribute name="summary" value="A 2D test using ADCIRC+WW3 " /><ns0:attribute name="ncmlFile" value="/data/comt_2/pr_inundation_tropical/EMC_ADCIRC-WW3/Dec2013Storm_2D_preliminary_run_1_waves_only/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Estuarine Hypoxia : VIMS : ChesROMS : 1term constR" ID="estuarine_hypoxia.VIMS_ChesROMS.1term_constR" urlPath="data/comt_2/cb_hypoxia/VIMS_CHesROMS-ECB/5year"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <ns0:attribute name="Conventions" type="String" value="CF-1.6, SGRID-0.1, ACDD-1.3" />
+  <ns0:attribute name="cdm_data_type" type="String" value="" />
+  <ns0:attribute name="publisher_email" type="String" value="marjy@vims.edu" />
+  <ns0:attribute name="publisher_url" type="String" value="http://www.vims.edu/people/friedrichs_ma/" />
+  <ns0:attribute name="publisher_name" type="String" value="Marjy Friedrichs" />
+  <ns0:attribute name="license" type="String" value="The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. " />
+  <ns0:attribute name="creator_email" type="String" value="marjy@vims.edu" />
+  <ns0:attribute name="creator_url" type="String" value="http://www.vims.edu/people/friedrichs_ma/" />
+  <ns0:attribute name="creator_name" type="String" value="Marjy Friedrichs" />
+  <ns0:attribute name="title" type="String" value="Estuarine Hypoxia : VIMS : ChesROMS : 1term constR" />
+  <ns0:attribute name="summary" type="String" value="Five year (2001-2005) simulation of Chesapeake Bay hydrodynamics+biogeochemistry, as published in Feng et al., JGR-BGS, 2015" />
+  <ns0:attribute name="project" type="String" value="COMT" />
+  <ns0:attribute name="references" type="String" value="http://testbed.sura.org" />
+  <ns0:attribute name="contributor_role" type="String" value="advisor" />
+  <ns0:attribute name="contributor_email" type="String" value="marjy@vims.edu" />
+  <ns0:attribute name="contributor_url" type="String" value="http://www.vims.edu/people/friedrichs_ma/" />
+  <ns0:attribute name="contributor_name" type="String" value="Marjy Friedrichs" />
+  <ns0:attribute name="id" type="String" value="estuarine_hypoxia.VIMS_ChesROMS.1term_constR" />
+  <ns0:attribute name="naming_authority" type="String" value="org.sura.comt" />
+
+<ns0:variable name="ocean_time">
+  <ns0:attribute name="standard_name" type="String" value="time" />
+</ns0:variable>
+
+<ns0:variable name="bvstr">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="lwrad">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="EminusP">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="chlorophyll">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="lon_rho">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="mask_v">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="mask_u">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="Tobc_out">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+</ns0:variable>
+
+<ns0:variable name="ISS">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="bustr">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="phytoplankton">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="evaporation">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="mask_rho">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="LdetritusC">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="tke">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="semilabileDOC">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="vbar">
+  <ns0:attribute name="standard_name" type="String" value="barotropic_y_sea_water_velocity" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="lat_psi">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+</ns0:variable>
+
+<ns0:variable name="semilabileDON">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="zeta">
+  <ns0:attribute name="standard_name" type="String" value="sea_surface_height_above_datum" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="angle">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="LdetritusN">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="NO3">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="sensible">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="latent">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="AKs">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="AKv">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="AKt">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="lat_rho">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="refractoryDON">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="ssflux">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="ubar">
+  <ns0:attribute name="standard_name" type="String" value="barotropic_x_sea_water_velocity" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="shflux">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="TIC">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="pn">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="refractoryDOC">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="pm">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="lon_v">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="lon_u">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="zooplankton">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="alkalinity">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="v">
+  <ns0:attribute name="standard_name" type="String" value="y_sea_water_velocity" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="lon_psi">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+</ns0:variable>
+
+<ns0:variable name="rain">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="NH4">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="mask_psi">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+</ns0:variable>
+
+<ns0:variable name="rho">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="lat_v">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="lat_u">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="omega">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="svstr">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge2" />
+</ns0:variable>
+
+<ns0:variable name="SdetritusC">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="temp">
+  <ns0:attribute name="standard_name" type="String" value="sea_water_potential_temperature" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="oxygen">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="f">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="SdetritusN">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="sustr">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="u">
+  <ns0:attribute name="standard_name" type="String" value="x_sea_water_velocity" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="edge1" />
+</ns0:variable>
+
+<ns0:variable name="w">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="h">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="swrad">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="gls">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="salt">
+  <ns0:attribute name="standard_name" type="String" value="sea_water_salinity" />
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+  <ns0:attribute name="location" type="String" value="face" />
+</ns0:variable>
+
+<ns0:variable name="Tobc_in">
+  <ns0:attribute name="grid" type="String" value="grid" />
+  <ns0:attribute name="content_coverage_type" type="String" value="modelResult" />
+</ns0:variable>
+
+<ns0:variable name="grid" type="int">
+        <ns0:attribute name="cf_role" value="grid_topology" />
+        <ns0:attribute name="topology_dimension" type="int" value="2" />
+        <ns0:attribute name="node_dimensions" value="xi_psi eta_psi" />
+        <ns0:attribute name="face_dimensions" value="xi_rho: xi_psi (padding: both) eta_rho: eta_psi (padding: both)" />
+        <ns0:attribute name="edge1_dimensions" value="xi_u: xi_psi eta_u: eta_psi (padding: both)" />
+        <ns0:attribute name="edge2_dimensions" value="xi_v: xi_psi (padding: both) eta_v: eta_psi" />
+        <ns0:attribute name="node_coordinates" value="lon_psi lat_psi" />
+        <ns0:attribute name="face_coordinates" value="lon_rho lat_rho" />
+        <ns0:attribute name="edge1_coordinates" value="lon_u lat_u" />
+        <ns0:attribute name="edge2_coordinates" value="lon_v lat_v" />
+        <ns0:attribute name="vertical_dimensions" value="s_rho: s_w (padding: none)" />
+    </ns0:variable>
+ <ns0:aggregation dimName="ocean_time" type="joinExisting">
+<ns0:scan location="/data/comt_2/cb_hypoxia/VIMS_CHesROMS-ECB/5year/Output" regExp=".*fengjgr2015\.nc$" subdirs="false" />
+</ns0:aggregation>
+<ns0:attribute name="ncmlFile" value="/data/comt_2/cb_hypoxia/VIMS_CHesROMS-ECB/5year/00_dir.ncml" /></ns0:netcdf></dataset>
    <catalogRef xlink:href="http://oceanmodeling.pmc.ucsc.edu:8080/thredds/catalog/ccsnrt_physbio/fmrc/catalog.xml" xlink:title="CCSNRT Phys Bio Aggregation/Best Time Series" name=""/>
 
  </catalog>
