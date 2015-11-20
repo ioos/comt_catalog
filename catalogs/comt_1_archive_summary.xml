@@ -99,7 +99,7 @@
  </ns0:variable>
  <ns0:variable name="zeta_max">
   <ns0:attribute name="cell_methods" value="time: maximum" />
-  <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
+  <ns0:attribute name="standard_name" value="maximum_sea_surface_height_above_geoid" />
  </ns0:variable>
  <ns0:variable name="radstress_max">
   <ns0:attribute name="cell_methods" value="time: maximum" />
@@ -3637,16 +3637,6 @@
       <ns0:attribute name="units" value="m/s" />
       <ns0:attribute name="missing_value" type="float" value="-999.00" />
      </ns0:variable>
-     <ns0:variable name="elevmax" shape="node" type="float">
-      <ns0:attribute name="coverage_content_type" value="modelResult" />
-      <ns0:attribute name="long_name" value="maximum_free_surface_elevation" />
-      <ns0:attribute name="standard_name" value="sea_surface_height_above_geoid" />
-      <ns0:attribute name="missing_value" type="float" value="-999.00" />
-      <ns0:attribute name="mesh" value="selfe_mesh" />
-      <ns0:attribute name="location" value="node" />
-      <ns0:attribute name="coordinates" value="lat lon" />
-      <ns0:attribute name="units" value="m" />
-     </ns0:variable>
      <ns0:aggregation type="union">
       <ns0:netcdf>
        <ns0:aggregation dimName="time" type="joinExisting">
@@ -3668,7 +3658,19 @@
         <ns0:scan location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_without_waves/Output/" regExp=".*[0-9]_wist.*\.nc$" />
        </ns0:aggregation>
       </ns0:netcdf>
-      <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_without_waves/Output/maxelev.nc" /> 
+      <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_without_waves/Output/maxelev.nc"> 
+
+     <ns0:variable name="elevmax" shape="node" type="float">
+      <ns0:attribute name="coverage_content_type" value="modelResult" />
+      <ns0:attribute name="long_name" value="maximum_free_surface_elevation" />
+      <ns0:attribute name="standard_name" value="maximum_sea_surface_height_above_geoid" />
+      <ns0:attribute name="missing_value" type="float" value="-999.00" />
+      <ns0:attribute name="mesh" value="selfe_mesh" />
+      <ns0:attribute name="location" value="node" />
+      <ns0:attribute name="coordinates" value="lat lon" />
+      <ns0:attribute name="units" value="m" />
+     </ns0:variable>
+      </ns0:netcdf>
       <ns0:netcdf location="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_without_waves/Output/coords.nc" /> 
      </ns0:aggregation>
     <ns0:attribute name="id" value="inundation_tropical.VIMS_SELFE.Hurricane_Rita_2D_final_run_without_waves" /><ns0:attribute name="cdm_data_type" value="ugrid" /><ns0:attribute name="summary" value="A 2D hindcast of Hurricane Rita (2005) using SELFE on the ULLR mesh (does not include waves)." /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_2D_final_run_without_waves/00_dir.ncml" /></ns0:netcdf></dataset><dataset name="Inundation Tropical : VIMS : SELFE : Hurricane Rita 3D final run with waves" ID="inundation_tropical.VIMS_SELFE.Hurricane_Rita_3D_final_run_with_waves" urlPath="data/comt_1_archive/inundation_tropical/VIMS_SELFE/Hurricane_Rita_3D_final_run_with_waves"> <serviceName>all</serviceName><ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -6222,7 +6224,8 @@
   <ns0:variable name="lon">
      <ns0:attribute name="missing_value" type="float" value="-999" />
   </ns0:variable>
-<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : EFDC : 2004_DO" /><ns0:attribute name="summary" value="One year (2004) simulation of dissolved oxygen, salinity, and velocity in Chesapeake Bay" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/00_dir.ncml" /></ns0:netcdf></dataset>
-   <catalogRef xlink:href="http://oceanmodeling.pmc.ucsc.edu:8080/thredds/catalog/ccsnrt_physbio/fmrc/catalog.xml" xlink:title="CCSNRT Phys Bio Aggregation/Best Time Series" name=""/>
+<ns0:attribute name="id" value="estuarine_hypoxia.VIMS_EFDC.2004_DO3d" /><ns0:attribute name="title" value="Estuarine Hypoxia : VIMS : EFDC : 2004_DO" /><ns0:attribute name="summary" value="One year (2004) simulation of dissolved oxygen, salinity, and velocity in Chesapeake Bay" /><ns0:attribute name="ncmlFile" value="/data/comt_1_archive/estuarine_hypoxia/VIMS_EFDC/2004_DO3d/00_dir.ncml" /></ns0:netcdf></dataset><!--
+<catalogRef xlink:href="http://oceanmodeling.pmc.ucsc.edu:8080/thredds/catalog/ccsnrt_physbio/fmrc/catalog.xml" xlink:title="CCSNRT Phys Bio Aggregation/Best Time Series" name=""/>
+-->
 
  </catalog>
