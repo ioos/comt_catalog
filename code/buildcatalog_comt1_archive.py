@@ -82,6 +82,7 @@ for row in rows:
       print wrow
       print id
       print cdmdatatype
+      print ncmlFile
 
 #-----------------------------------------------------------------------
 #
