@@ -97,8 +97,18 @@
   <ns0:attribute name="coordinates" value="y x" />
   <ns0:attribute name="cell_methods" value="time: maximum" />
  </ns0:variable>
+ <ns0:variable name="zeta">
+  <ns0:attribute name="units" value="m" />
+ </ns0:variable>
+ <ns0:variable name="u_vel">
+  <ns0:attribute name="units" value="m/s" />
+ </ns0:variable>
+ <ns0:variable name="v_vel">
+  <ns0:attribute name="units" value="m/s" />
+ </ns0:variable>
  <ns0:variable name="zeta_max">
   <ns0:attribute name="cell_methods" value="time: maximum" />
+  <ns0:attribute name="units" value="m" />
   <ns0:attribute name="standard_name" value="maximum_sea_surface_height_above_geoid" />
  </ns0:variable>
  <ns0:variable name="radstress_max">
@@ -644,20 +654,31 @@
  </ns0:variable>
  <ns0:variable name="u-vel3D">
   <ns0:attribute name="standard_name" value="eastward_sea_water_velocity" />
+  <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
  <ns0:variable name="v-vel3D">
   <ns0:attribute name="standard_name" value="northward_sea_water_velocity" />
+  <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
  <ns0:variable name="w-vel3D">
   <ns0:attribute name="standard_name" value="upward_sea_water_velocity" />
+  <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
  <ns0:variable name="u-vel">
   <ns0:attribute name="standard_name" value="barotropic_eastward_sea_water_velocity" />
+  <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
  <ns0:variable name="v-vel">
   <ns0:attribute name="standard_name" value="barotropic_northward_sea_water_velocity" />
+  <ns0:attribute name="units" value="m/s" />
  </ns0:variable>
 
+ <ns0:variable name="zeta_max">
+  <ns0:attribute name="units" value="m" />
+ </ns0:variable>
+ <ns0:variable name="zeta">
+  <ns0:attribute name="units" value="m" />
+ </ns0:variable>
  <ns0:variable name="time">
   <ns0:attribute name="units" value="seconds since 2008-07-31 12:00:00 +00:00" />
  </ns0:variable>
