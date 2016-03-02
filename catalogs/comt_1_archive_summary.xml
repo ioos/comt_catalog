@@ -100,12 +100,6 @@
  <ns0:variable name="zeta">
   <ns0:attribute name="units" value="m" />
  </ns0:variable>
- <ns0:variable name="u_vel">
-  <ns0:attribute name="units" value="m/s" />
- </ns0:variable>
- <ns0:variable name="v_vel">
-  <ns0:attribute name="units" value="m/s" />
- </ns0:variable>
  <ns0:variable name="zeta_max">
   <ns0:attribute name="cell_methods" value="time: maximum" />
   <ns0:attribute name="units" value="m" />
